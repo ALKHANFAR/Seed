@@ -1,12 +1,17 @@
-# Siyadah — Product Truth (verified product facts)
+# Siyadah — Product Truth (محقون من الأرشيف 2026-06-10)
 
-Automation & institutional intelligence platform.
-- Architecture: chat UI → **Siyadah Orchestrator** (turns natural-language Arabic
-  requests into executable flows) → execution engine built on Activepieces →
-  external services (Gmail, Sheets, Slack, CRMs…)
-- Core promise: non-technical employees automate by describing, not by coding.
-- Strategic role in the group: the memory + execution layer that every Sondos call feeds.
+**الأطروحة:** نظام تشغيل ذكي للشركات — يكتشف أين تضيع الفلوس، يبني موظفين رقميين يغلقون الهدر، ويثبت الأثر بالأرقام. "الجهاز العصبي للشركة." تدخل بشري <5% (رؤية معتمدة).
 
-## Numbers (⟦DATA⟧)
-Stage (beta/GA) · active workspaces · workflows created/executed monthly ·
-attach rate to Sondos customers · expansion revenue evidence
+**المعمارية (VERIFIED):** Chat → Siyadah Orchestrator (intent→flow) → Activepieces engine → الخدمات الخارجية. Next.js + Postgres (24 جدولاً multi-tenant: tenants, digital_employees, company_dna, company_kb, insights...) + Redis على Railway.
+
+**الإثبات الحي (VERIFIED، 2026-05-11):** المسار E2E كاملاً: رسالة شات → build_dynamic_flow → flow_id محفوظ في digital_employees → يظهر في الداشبورد. 18 موظفاً رقمياً، 19 اتصالاً نشطاً (بيئة المؤسس).
+
+**المرحلة:** ما قبل الإطلاق التجاري (بلوكرات تقنية محددة وموثقة). ⟦تحديث: هل أُطلق منذ مايو؟⟧
+
+**التسعير المعتمد:** Free Trial → Starter $25/شهر → Wallet استهلاكي بـ UsageMeter لحظي (Stripe/Moyasar). ⚠️ يُحسم مقابل رسالة "199-999 ريال/شهر".
+
+**رحلة العميل (الرؤية):** URL → تقرير مقارن خلال 60 ثانية → شات بسؤالين → ربط الأدوات → موظفون يعملون. Zero-setup في 5 دقائق.
+
+**الخندق المشترك:** "صوت من سندس" داخل سيادة = حاجز 2-3 سنوات (عربي سعودي صوت+نص — لا يقدمه Zapier وأشباهه).
+
+**الأرقام التجارية:** MRR/عملاء مدفوعون/Churn = ⟦MISSING — تُجمع من Stripe/الفواتير⟧

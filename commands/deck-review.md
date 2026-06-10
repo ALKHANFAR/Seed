@@ -4,6 +4,7 @@
 **Input:** the deck (Slidev markdown or PDF) + pitch-factory/deck-outline.md.
 
 ## Hard checks (fail any = NOT READY)
+0. **5-Second Rule (Khosla)**: shown for 5 seconds only, each slide lands ONE clear message. See pitch-factory/methodology/.
 1. Every slide title is an **Action Title** — a full sentence carrying the takeaway.
 2. The answer appears by slide 2 (executive summary), not at the end.
 3. Traction slide exists and is the strongest slide in the deck.

@@ -1,55 +1,20 @@
-# 00 Start Here
+# 00 — ابدأ هنا: كيف تُشغّل Seed OS
 
-Seed is a reusable investment readiness system for startups.
+Seed = نظام تشغيل لإغلاق جولة استثمارية. ليس مجلد عروض.
+المستخدم الأول: D10 (Ten Dimensions) — سندس + سيادة، جولة Seed.
 
-It helps founders organize company information and turn it into clear investor-facing material.
+## التشغيل اليومي (15 دقيقة)
+crm/pipeline.md → نفّذ الإجراء التالي لكل صندوق → التقط الجديد في brain/ → رقِّ ادعاءً واحداً نحو VERIFIED.
 
-## Purpose
+## قبل أي اجتماع
+brain/funds/<الصندوق>.md + تحليل فجواته → إن اهتزت القصة شغّل /investor-office-hours.
 
-Seed helps a startup move from scattered notes to structured investment material:
+## قبل إرسال أي شيء
+/deal-ceo-review → المراجعة المتخصصة (deck/diligence/financial/moat) → /investor-qa → بوابات proof-gates/ → /investor-package. صفر MISSING في أي وثيقة تخرج.
 
-- Company profile
-- Market story
-- Product explanation
-- Evidence index
-- Team narrative
-- Financial logic
-- Investor questions
-- Follow-up material
+## أسبوعياً (غير قابل للتفاوض)
+/fundraising-retro → حدّث readiness/term-sheet-readiness-score.md. أسبوعان بلا حركة = مشكلة أطروحة لا مشكلة جهد.
 
-## Principle
-
-Do not start with slides.
-Start with truth.
-
-A strong deck is the final surface.
-The real work is the system underneath it.
-
-## Core Flow
-
-Company information becomes:
-
-1. A clear statement
-2. Supporting evidence
-3. A slide idea
-4. An investor answer
-5. A data room item
-6. A next action
-
-## Status Tags
-
-Every important statement should be tagged as:
-
-- VERIFIED
-- PARTIAL
-- MISSING
-
-## First Use Case
-
-This system is general.
-
-The first company group that will use it is:
-
-- D10
-- Sondos
-- Siyadah AI
+## أين الحقيقة؟
+company-layer/AMMUNITION_EXTRACT_2026-06-10.md = الذخيرة الموثقة بمصادرها.
+كل ادعاء بوسمه: VERIFIED / PARTIAL / MISSING — والـ MISSING يُعلَن ولا يُخفى.

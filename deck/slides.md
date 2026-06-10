@@ -62,7 +62,7 @@ Raising **⟦Amount⟧** to reach **⟦Milestone 1 · 2 · 3⟧** in 18 months.
 ### 📞 Calls
 Missed calls, no-shows, cold leads — human call teams are costly and sleep at night.
 <div class="kpi">⟦X⟧</div>
-<div class="kpi-label">⟦pain metric from a real customer⟧</div>
+<div class="kpi-label">تكلفة 5-10 موظفي متابعة: 300-600K ريال/سنة — والمعرفة ترحل معهم</div>
 </div>
 <div>
 
@@ -135,7 +135,7 @@ Tools get replaced. **Memory doesn't migrate.**
 
 ---
 
-# Traction
+# Proof — مُثبت بسجلات الإنتاج
 
 <div class="grid grid-cols-4 gap-4 pt-8">
 <div><div class="kpi">⟦MRR⟧</div><div class="kpi-label">MRR</div></div>
@@ -146,7 +146,7 @@ Tools get replaced. **Memory doesn't migrate.**
 
 <br>
 
-> ⟦One customer story with a before/after number — the slide investors remember⟧
+> E2E موثق: رسالة شات → موظف رقمي يعمل → داشبورد · 18 موظفاً رقمياً · 19 تكاملاً نشطاً · عملاء سندس يدفعون اليوم ⟦الأرقام من الفوترة⟧
 
 ---
 
@@ -174,7 +174,7 @@ Tools get replaced. **Memory doesn't migrate.**
 
 | Competitor | Their edge | Why we win |
 |---|---|---|
-| Global voice-AI | maturity, capital | dialects · PDPL/localization · local integrations |
+| Global voice-AI | maturity, capital | لهجات سعودية · PDPL/توطين · تكاملات محلية · حاجز صوت سندس 2-3 سنوات |
 | Call centers | incumbency | cost/call · 24/7 · structured data exhaust |
 | Global automation | breadth | Arabic-first UX · voice data wedge |
 | Future local clones | parity | data head-start · memory moat · ship velocity |

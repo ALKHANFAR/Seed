@@ -1,9 +1,8 @@
-# D10 (عشر أبعاد) — Holding Profile
+# D10 / عشر أبعاد (Ten Dimensions) — Holding Profile
 
-- Legal structure & ownership of subsidiaries: ⟦DATA⟧
-- Subsidiaries: Sondos (voice AI), Siyadah (automation/orchestration), ⟦others⟧
-- The group thesis: voice generates the data; the orchestration layer compounds it
-  into institutional memory and automated execution.
-- Consolidated metrics (if raising at group level): ⟦DATA⟧
-- What exactly is the round's entity and what does the investor own? ⟦DATA — critical,
-  resolve before first meeting⟧
+- الاسم الإنجليزي لمراسلات المستثمرين: **Ten Dimensions — Infrastructure for the Autonomous Enterprise** (VERIFIED من مسودة Outreach)
+- المؤسس: عبدالرحمن فهد الخنفري — Founder (VERIFIED)
+- الفريق الموثق: رانيا (Ops/Marketing لكلا المنتجين) + مدير عمليات · الحجم الكامل ⟦MISSING⟧
+- المنتجات: سندس (Voice AI — إيراد اليوم) + سيادة (Agentic OS — الخندق غداً)
+- أطروحة المجموعة: صوت سندس يولّد البيانات والثقة؛ سيادة تحوّلها إلى موظفين رقميين وذاكرة مؤسسية — "نستبدل الفجوة بين الأنظمة والإدارة"
+- ⟦MISSING حرج قبل أول اجتماع: الهيكل القانوني — أي كيان يرفع الجولة وماذا يملك المستثمر؟⟧
