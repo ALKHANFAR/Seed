@@ -1,80 +1,50 @@
-# Seed Investor Operating System
+# Seed — Investment Operating System
 
-This repository is the investor-closing operating system for **Sondos & Siyadah**.
+**Seed is a reusable, file-based operating system for closing a funding round.**
+Generic in structure, specific in data. First user: **D10 Group (Sondos & Siyadah)**
+raising Seed from investors such as STV, Impact46, and Shorooq.
 
-Its purpose is not to store a static pitch deck. Its purpose is to turn company data, product proof, team execution, financial logic, and AI-agent operations into a repeatable machine that helps close Seed investors such as **STV, Impact46, and Shorooq**.
+Built on four distilled philosophies:
+- **gstack** (Garry Tan) → named review agents + slash commands + a weekly loop
+- **gbrain** (Garry Tan) → typed institutional memory with gap analysis
+- **Zolidar** → context/truth first; the deck is the last surface
+- **Sequoia/Khosla + top deck benchmarks** → answer-first narrative, Action Titles
 
-## Strategic Role
+## The pipeline every piece of information travels
+```
+RAW INFO → CLAIM → PROOF GATE (VERIFIED/PARTIAL/MISSING) → SLIDE → INVESTOR ANSWER → DATA-ROOM ASSET
+```
+**No claim without a gate. No send without QA. No week without a retro.**
 
-Act as an **Investment Partner** for Sondos & Siyadah.
-
-The final goal is to convert technical, financial, operational, and human evidence into a compelling investment narrative that increases investor confidence and drives toward a signed Term Sheet.
-
-## Core References
-
-| Reference | Use inside this repo |
-|---|---|
-| Slidev | Build an interactive code-based pitch deck, not image-only slides. |
-| gbrain | Build the institutional memory layer for meetings, decisions, contracts, proof, and investor context. |
-| gstack | Build the AI-agent operating system for CEO Review, QA, investor readiness, and execution checks. |
-| Zolidar Pitch Builder | Use as a story structure reference inspired by top investor deck patterns. |
-| Joel / Awesome Decks | Use as global benchmarking for investor storytelling quality. |
-
-## 10 Dimensions Framework
-
-Every investor-facing output must pass these ten dimensions:
-
-1. Technical Proof
-2. Institutional Memory
-3. Investment Storytelling
-4. Team Strength
-5. Product Clarity
-6. Operations & Execution
-7. Defensibility / Moat
-8. Scalability
-9. Market Impact
-10. Financial Return
-
-## Repository Structure
-
-```txt
-seed/
-├── README.md
-├── investor-os/
-│   ├── 00-investment-partner-role.md
-│   ├── 01-10-dimensions-framework.md
-│   ├── 02-investor-proof-gates.md
-│   ├── 03-investor-narrative-map.md
-│   └── 04-term-sheet-readiness.md
-├── pitch-deck/
-│   ├── slidev-starter.md
-│   └── deck-outline.md
-├── gbrain/
-│   └── institutional-memory-schema.md
-├── gstack/
-│   └── agent-operating-system.md
-└── investor-data-room/
-    ├── evidence-index.md
-    ├── metrics-template.md
-    └── investor-questions-log.md
+## Map
+```
+core-os/         philosophy · operating loop · 10-dimensions rubric · proof discipline
+brain/           the investor memory: funds, people, meetings, questions, objections,
+                 claims, commitments, theses (schema + rules + templates)
+commands/        11 runnable slash-commands (/investor-office-hours → /investor-package)
+agents/          8 reviewer personas (skeptical-vc, deck-doctor, closing-manager…)
+proof-gates/     claim · traction · technical · financial · team gates
+context/         the truth engine: narrative, market, competition, financials, roadmap
+company-layer/   D10 · Sondos · Siyadah profiles + master narrative + master prompt (AR)
+playbooks/       per-fund playbooks (method + STV/Impact46/Shorooq skeletons)
+pitch-factory/   deck outline (Action Titles) · one-liner · memo · objection ladder
+deck/            REAL Slidev deck — `npm i && npm run dev`
+data-room/       index · evidence map · metrics pack · questions log
+crm/             pipeline · follow-up system · objection tracker
+readiness/       term-sheet readiness score (/100, weekly)
+retros/          weekly fundraising retro template
 ```
 
-## Operating Rule
+## Start here
+1. Read `core-os/00-philosophy.md` then `core-os/01-operating-loop.md`.
+2. Fill `company-layer/` and `context/` with real data (everything marked ⟦DATA⟧).
+3. Run `/investor-office-hours` (commands/) with any capable LLM → lock the thesis.
+4. Build materials through `/investor-autoplan`. Nothing ships without `/investor-qa`.
+5. Run `/fundraising-retro` every week. Track `readiness/` to ≥80/100, then push for term sheets.
 
-No investor claim is accepted unless it has proof.
+## The ten dimensions (every output must pass)
+Technical · Memory · Story · Team · Product · Operations · Moat · Scale · Impact · Return
+— rubric in `core-os/02-ten-dimensions.md`.
 
-Investor-facing claims must be tagged as:
-
-- `VERIFIED`
-- `PARTIALLY VERIFIED`
-- `NOT VERIFIED`
-
-## Immediate Objective
-
-Build a world-class interactive Seed pitch system that proves:
-
-> Siyadah is not just a SaaS product. It is an AI operating system for business execution.
-
-And:
-
-> Sondos is the operational proof engine that gives Siyadah real market data, customer pain, and execution credibility.
+## Reuse for any other company
+Copy `company-layer/` + `context/`, replace the data, keep everything else.

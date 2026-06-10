@@ -1,0 +1,14 @@
+# Sondos — Product Truth (verified product facts)
+
+Arabic-first AI voice agents for business phone calls.
+- Inbound (customers call in) + Outbound campaigns on lead lists
+- Configurable AI Assistant: system prompt, voice, knowledge base, tools
+- **Mid-Call Tools**: the agent reads/writes live data in customer systems DURING
+  the call (balance lookups, bookings, record updates) via custom tools/APIs
+- Automation Flows (drag & drop), webhooks, REST API for pre/post-call
+- Integrations: HubSpot, GoHighLevel, Cal.com, Google Sheets, Slack, email, SIP, WhatsApp
+- MCP support as the smart connection layer between agent and customer tools
+
+## Numbers (fill from metrics — all currently ⟦DATA⟧)
+MRR/ARR + monthly growth · active customers · churn/retention · monthly call/minute
+volume · ACV · gross margin & cost-per-minute · CAC by channel · named logos/case studies

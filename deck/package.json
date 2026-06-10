@@ -1,0 +1,14 @@
+{
+  "name": "seed-pitch-deck",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md --open",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md --output seed-deck.pdf"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.50.0",
+    "@slidev/theme-default": "latest",
+    "playwright-chromium": "^1.45.0"
+  }
+}
