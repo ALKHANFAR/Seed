@@ -4,7 +4,7 @@
 > Updated: 2026-06-11 after current financial model, founder customer list, and old Sondos dashboard review.  
 > Every investor-facing claim must carry a gate: **VERIFIED / PARTIAL / MISSING / SUPERSEDED**.  
 > **Important clarification:** Current MRR means **contracted/current MRR**, not cash collected. شركة تقدير is included in contracted MRR but has not paid yet; payment is expected soon.  
-> **Pipeline clarification:** The old `Sondos Ai dashborad` file is historical pipeline evidence. It shows many trials, not current paying customers.
+> **Pipeline clarification:** The old `Sondos Ai dashborad` file is historical pipeline evidence. It shows many trials and campaigns, not current paying customers.
 
 ---
 
@@ -94,6 +94,8 @@ Dashboard summary showed:
 | Customers | 1 | Historical dashboard customer, not current MRR |
 | Revenue | 995 SAR | Historical dashboard revenue only |
 
+Campaign channels/names include **email campaigns (حملة إيميلات)**, WhatsApp AI campaigns, and call/voice AI campaigns. These are acquisition motions, not customer names.
+
 The dashboard is useful to prove early sales motion and trials, but **not** current MRR/ARR. Current finance source remains `FINANCIAL_TRUTH_PACK_2026-06-11.md`.
 
 ### 4.3 Customer universe — historical / previous / trial / current
@@ -124,7 +126,7 @@ This list is the broader customer universe. It must not be confused with current
 - Use case: Arabic/Saudi voice agent for hospitals, clinics, real estate, collections, HR/services, and software/operations companies — PARTIAL.
 - Shared moat: “Sondos voice inside Siyadah” creates a voice-data wedge and memory moat — VERIFIED-INTERNAL as strategic thesis.
 - Unit economics: cost/minute 0.36 SAR and sell/minute 2.5–3.0 SAR → Unit GM 85.6%–88.0% — VERIFIED-INTERNAL.
-- Historical pipeline proof: campaigns → meetings → trials → limited conversion — PARTIAL. Useful for showing learning velocity, not financial scale.
+- Historical pipeline proof: email campaigns / WhatsApp AI / call AI → meetings → trials → limited conversion — PARTIAL. Useful for showing learning velocity, not financial scale.
 
 ---
 
@@ -179,7 +181,7 @@ This list is the broader customer universe. It must not be confused with current
 | 2 | Customers/churn | PARTIAL — 4 active contracted customers; broader 12+2 mostly trial/pipeline universe captured; churn/status still TBD |
 | 3 | Call/minute volume | MISSING — important for voice proof |
 | 4 | ACV/pricing/margin | PARTIAL — Unit GM verified internally; pricing line still TBD |
-| 5 | CAC/channels | PARTIAL — old dashboard shows campaigns/meetings/trials, but no reliable CAC yet |
+| 5 | CAC/channels | PARTIAL — old dashboard shows campaigns/meetings/trials, including email campaigns; no reliable CAC yet |
 | 6 | Burn/runway | PARTIAL — burn captured; cash/runway missing |
 | 7 | Round/valuation/milestones | PARTIAL — $1M direction; valuation/milestones need final model |
 | 8 | Team | PARTIAL |
@@ -212,4 +214,4 @@ This list is the broader customer universe. It must not be confused with current
 
 ## 13) One-line investor traction wording — current safe version
 
-> Sondos has 40.8K SAR in contracted/current MRR across 4 active customers, with 27.9K SAR excluding تقدير until collection. One customer, تقدير, represents 12.9K SAR and has not paid yet but is expected soon. Beyond current MRR, the historical pipeline shows 25 campaigns, 25 meetings, and 16 trials, giving evidence of market experimentation across healthcare, real estate, collections, HR/services, charities, and software. The voice unit economics are strong: minute cost is ~0.36 SAR and resale price ranges from 2.5 to 3.0 SAR, implying 85.6%–88.0% unit gross margin. Siyadah turns this voice-data wedge into a long-term memory and execution moat.
+> Sondos has 40.8K SAR in contracted/current MRR across 4 active customers, with 27.9K SAR excluding تقدير until collection. One customer, تقدير, represents 12.9K SAR and has not paid yet but is expected soon. Beyond current MRR, the historical pipeline shows 25 campaigns, 25 meetings, and 16 trials, including email campaigns, WhatsApp AI campaigns, and call AI campaigns. This gives evidence of market experimentation across healthcare, real estate, collections, HR/services, charities, and software. The voice unit economics are strong: minute cost is ~0.36 SAR and resale price ranges from 2.5 to 3.0 SAR, implying 85.6%–88.0% unit gross margin. Siyadah turns this voice-data wedge into a long-term memory and execution moat.
