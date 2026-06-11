@@ -16,3 +16,11 @@
 
 The test of a good /investor-learn: someone who wasn't in the meeting can run the
 next meeting from the Brain alone.
+
+## 7. Learnings layer (gstack uplift)
+After steps 1-6, distill any cross-cutting **pattern / pitfall / preference**
+into `brain/learnings.jsonl` per `brain/learnings-spec.md` (confidence score,
+source attribution, refs). Facts live in the Brain pages above; *patterns* live
+in learnings — they are what every other command auto-searches before recommending.
+Per-fund micro-notes start **quarantined** and are promoted to active after 3
+confirmed uses.

@@ -3,17 +3,41 @@
 Seed = نظام تشغيل لإغلاق جولة استثمارية. ليس مجلد عروض.
 المستخدم الأول: D10 (Ten Dimensions) — سندس + سيادة، جولة Seed.
 
+## المبادئ العميقة (اقرأها مرة، طبّقها دائماً)
+`core-os/03-fundraising-ethos.md` — اغلِ محيط الإثبات (الاكتمال صار رخيصاً)،
+ابحث قبل أن تعرض (طبقات المعرفة الثلاث)، وسيادة المؤسس (النماذج توصي، أنت تقرر،
+النظام لا يرسل شيئاً نيابة عنك أبداً).
+
 ## التشغيل اليومي (15 دقيقة)
-crm/pipeline.md → نفّذ الإجراء التالي لكل صندوق → التقط الجديد في brain/ → رقِّ ادعاءً واحداً نحو VERIFIED.
+crm/pipeline.md → نفّذ الإجراء التالي لكل صندوق → افحص دورات `/post-meeting-canary`
+(صمت يتجاوز خط الأساس = إنذار) → التقط الجديد في brain/ بصيغة `[seed-context]`
+→ رقِّ ادعاءً واحداً نحو VERIFIED.
 
 ## قبل أي اجتماع
-brain/funds/<الصندوق>.md + تحليل فجواته → إن اهتزت القصة شغّل /investor-office-hours.
+brain/funds/<الصندوق>.md + الملاحظات الدقيقة للصندوق (learnings-spec) + تحليل فجواته
+→ إن اهتزت القصة شغّل /investor-office-hours.
 
 ## قبل إرسال أي شيء
-/deal-ceo-review → المراجعة المتخصصة (deck/diligence/financial/moat) → /investor-qa → بوابات proof-gates/ → /investor-package. صفر MISSING في أي وثيقة تخرج.
+/deal-ceo-review → المراجعة المتخصصة (deck/diligence/financial/moat) → /investor-qa
+→ /second-opinion للمواد المصيرية → بوابات proof-gates/ →
+**لوحة جاهزية الإرسال** (core-os/06) كلها خضراء → /investor-send أو /investor-package.
+صفر MISSING في أي وثيقة تخرج. والأفعال المدمرة (تقييم مكتوب، كاب تيبل، حصرية)
+تمر عبر تحذيرات /careful أولاً (core-os/04).
+
+## عند انسحاب أو صمت صندوق
+لا تلمس السردية. شغّل `/investigate-pass` (القانون الحديدي: لا إصلاح بلا سبب جذري)
+مع تجميد النطاق على ملف ذلك الصندوق. ثلاث صياغات فاشلة لنفس الاعتراض = المشكلة
+في هندسة القصة لا في الكلمات (core-os/05).
 
 ## أسبوعياً (غير قابل للتفاوض)
-/fundraising-retro → حدّث readiness/term-sheet-readiness-score.md. أسبوعان بلا حركة = مشكلة أطروحة لا مشكلة جهد.
+/fundraising-retro → حدّث readiness/term-sheet-readiness-score.md +
+خطوط أساس القمع (/funnel-benchmark) → صنّف ملاحظات المستشارين (/feedback-triage)
+→ رحّل دروس الأسبوع إلى brain/learnings.jsonl. أسبوعان بلا حركة = مشكلة أطروحة
+لا مشكلة جهد.
+
+## عند الـ"نعم"
+النعم الشفهية = PR مدموج، ليس منشوراً. شغّل `/close-and-verify`:
+term sheet → مستندات → **المال في الحساب** (الحالة الخضراء الوحيدة) → 30 يوم canary.
 
 ## أين الحقيقة؟
 company-layer/AMMUNITION_EXTRACT_2026-06-10.md = الذخيرة الموثقة بمصادرها.
