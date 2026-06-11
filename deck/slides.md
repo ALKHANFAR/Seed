@@ -1,7 +1,7 @@
 ---
 theme: default
 title: D10 Group — Seed
-info: Sondos & Siyadah · Investor deck
+info: Sondos & Siyadah · Investor deck — metrics frozen pending founder verification
 class: text-center
 highlighter: shiki
 drawings:
@@ -52,10 +52,29 @@ layout: center
 D10 is building the **automated operating system for Arabic-first businesses**.
 
 - **Sondos** — Arabic AI voice employees that create immediate revenue proof.
-- **Siyadah** — plain-Arabic automation and memory layer that compounds every customer interaction.
-- Every Sondos call feeds Siyadah's memory → <span class="accent">data compounds, workflows improve, switching costs rise.</span>
+- **Siyadah** — plain-Arabic automation and memory layer that compounds customer interactions.
+- Every Sondos call can feed Siyadah's memory → <span class="accent">data compounds, workflows improve, switching costs rise.</span>
 
-Raising **$1M Seed** to turn current revenue + enterprise pipeline into a repeatable Saudi AI operating system.
+Raising **$1M Seed**. Ownership percentage and valuation are intentionally left for negotiation.
+
+<span class="note">All operating, customer, revenue, margin, retention, and growth metrics are frozen until founder-verified from billing, contracts, and logs.</span>
+
+---
+
+# Data status — investor safety gate
+
+This deck is currently in **metrics-free narrative mode**.
+
+| Metric category | Status | Required source |
+|---|---|---|
+| MRR / ARR | ⟦TO VERIFY⟧ | invoices + collections |
+| Paying customers | ⟦TO VERIFY⟧ | active contracts + paid invoices |
+| ARPU / ACV | ⟦TO VERIFY⟧ | billing export |
+| Gross margin | ⟦TO VERIFY⟧ | voice/LLM cost + revenue |
+| Burn / Runway | ⟦TO VERIFY⟧ | bank + payroll + obligations |
+| Pipeline | ⟦TO VERIFY⟧ | signed documents + stage evidence |
+
+<span class="accent">Rule: no number becomes investor-facing until it has evidence.</span>
 
 ---
 
@@ -83,29 +102,14 @@ Global tools require engineers, English workflows, and manual system-to-system c
 
 <br>
 
-**The core gap:** humans work in limited windows. Digital employees operate continuously, remember every interaction, and trigger the next action automatically.
-
----
-
-# The problem, quantified carefully
-
-We use the old deck's strongest insight but keep it evidence-safe:
-
-| Gap | What it means | Investor treatment |
-|---|---|---|
-| Availability gap | human follow-up is business-hours limited; AI voice can run 24/7 | strong operating logic |
-| Memory gap | calls are not converted into institutional memory | core moat problem |
-| Action gap | the next workflow is often manual or forgotten | core product wedge |
-| Sector-loss estimates | useful for market sizing but must be externally sourced | not final until sourced |
-
-<span class="note">Do not use large loss numbers as final claims until external sources are attached.</span>
+**The core gap:** humans work in limited windows. Digital employees can operate continuously, remember every interaction, and trigger the next action automatically.
 
 ---
 
 # Why now — the window is open
 
-1. **Technology** — Arabic voice AI and LLM orchestration are now usable enough for real operations.
-2. **Economics** — rising labor costs turn missed follow-up and call inefficiency into CFO-level pain.
+1. **Technology** — Arabic voice AI and LLM orchestration are becoming usable enough for real operations.
+2. **Economics** — labor pressure turns missed follow-up and call inefficiency into CFO-level pain.
 3. **Policy** — Vision 2030, data governance, and local AI infrastructure favor Saudi-first operators.
 4. **Category** — the world is moving from SaaS tools to agentic operating systems.
 
@@ -188,99 +192,65 @@ Tools get replaced. **Memory does not migrate easily.**
 
 ---
 
-# Current traction — revenue baseline
+# Traction — frozen pending evidence
+
+The company has early commercial and technical signals, but exact numbers are not shown until verified.
 
 <div class="grid grid-cols-4 gap-4 pt-8">
-<div><div class="kpi">29.0K</div><div class="kpi-label">SAR current MRR</div></div>
-<div><div class="kpi">347.6K</div><div class="kpi-label">SAR implied ARR</div></div>
-<div><div class="kpi gold">87%</div><div class="kpi-label">raw unit gross margin</div></div>
-<div><div class="kpi">4</div><div class="kpi-label">active revenue customers</div></div>
+<div><div class="kpi">⟦VERIFY⟧</div><div class="kpi-label">MRR</div></div>
+<div><div class="kpi">⟦VERIFY⟧</div><div class="kpi-label">ARR</div></div>
+<div><div class="kpi">⟦VERIFY⟧</div><div class="kpi-label">gross margin</div></div>
+<div><div class="kpi">⟦VERIFY⟧</div><div class="kpi-label">paying customers</div></div>
 </div>
 
 <br>
 
-**Current MRR includes تقدير correctly as an annual contract:** 12,900 SAR/year = 1,075 SAR monthly equivalent.
-
-<span class="note">All metrics remain subject to evidence pack: contracts, invoices, and collection proof.</span>
+<span class="note">Insert only founder-confirmed metrics backed by invoices, collections, contracts, and logs.</span>
 
 ---
 
-# Current customer base
+# Customer base — frozen pending billing review
 
-| Customer | Sector | MRR treatment | Monthly equivalent |
-|---|---|---|---:|
-| الاناة الطبية | Healthcare | Current MRR | 17,391.5 SAR |
-| جمعية زمزم | Charity | Current MRR | 5,400 SAR |
-| جمعية إعادة الحياة | Healthcare | Current MRR | 5,100 SAR |
-| شركة تقدير | Real estate | Annual contract | 1,075 SAR |
+| Customer / segment | Status | Evidence required |
+|---|---|---|
+| Active paid accounts | ⟦TO VERIFY⟧ | contract + paid invoice |
+| Annual contracts | ⟦TO VERIFY⟧ | contract + monthly-equivalent treatment |
+| Enterprise pipeline | ⟦TO VERIFY⟧ | stage, documents, expected start date |
+| Churned / trial accounts | ⟦TO VERIFY⟧ | do not count in MRR |
 
-**Current MRR:** 28,966.5 SAR  
-**Current ARR:** 347,598 SAR
-
----
-
-# Enterprise pipeline — upside not counted in MRR
-
-<div class="grid grid-cols-3 gap-6 pt-8">
-<div><div class="kpi">57K</div><div class="kpi-label">SAR/month potential</div></div>
-<div><div class="kpi">684K</div><div class="kpi-label">SAR/year potential</div></div>
-<div><div class="kpi-small">SAICO</div><div class="kpi-label">enterprise pipeline</div></div>
-</div>
-
-<br>
-
-SAICO is shown as **enterprise pipeline only**. It is not counted in current MRR or ARR until revenue activation.
-
-<span class="accent">One enterprise account can exceed the current full MRR base.</span>
-
----
-
-# Historical GTM evidence
-
-Old Sondos dashboard evidence shows early market experimentation:
-
-| Metric | Historical dashboard value | Use |
-|---|---:|---|
-| Campaigns | 25 | GTM activity |
-| Meetings | 25 | Sales motion |
-| Trials | 16 | Trial demand |
-| Customers | 1 | Historical conversion |
-| Revenue | 995 SAR | Historical dashboard revenue |
-
-Channels included email campaigns, WhatsApp AI campaigns, and call AI campaigns.
-
-<span class="note">This is pipeline evidence, not current MRR.</span>
+<span class="accent">Rule: trial, expired, unpaid, or pipeline accounts are not counted as current MRR.</span>
 
 ---
 
 # Business model & unit economics
 
 - Revenue model: voice AI packages + usage economics + workflow expansion.
-- Raw unit gross margin: **87%**.
-- Minute economics: cost/minute around **0.36 SAR**, resale around **2.5–3.0 SAR**.
+- Pricing: ⟦TO VERIFY⟧
+- Cost per minute / LLM cost: ⟦TO VERIFY⟧
+- Gross margin: ⟦TO VERIFY⟧
 - Expansion path: Sondos voice data → Siyadah workflows → memory and automation attach.
 
 <span class="accent">Voice generates the first ROI. Memory creates the long-term moat.</span>
 
 ---
 
-# Market wedge — bottom-up from where we already see demand
+# Market wedge — bottom-up from verified segments
 
-We are not starting with a theoretical TAM. We start from sectors already touched by revenue, trials, and pipeline:
+We are not starting with a theoretical TAM. We start from sectors already touched by revenue, trials, or pipeline — after verification.
 
-| Sector | Why it hurts |
-|---|---|
-| Healthcare | missed calls, appointments, no-shows, follow-up |
-| Real estate | lead follow-up, valuation, scheduling, repeated inquiries |
-| Charities | donor/customer calls, campaign follow-up, operations |
-| Insurance | high-volume service and enterprise workflows |
-| Collections / HR / services | repetitive outreach and structured follow-up |
+| Sector | Why it hurts | Evidence status |
+|---|---|---|
+| Healthcare | missed calls, appointments, no-shows, follow-up | ⟦TO VERIFY⟧ |
+| Real estate | lead follow-up, valuation, scheduling, repeated inquiries | ⟦TO VERIFY⟧ |
+| Charities | donor/customer calls, campaign follow-up, operations | ⟦TO VERIFY⟧ |
+| Insurance | high-volume service and enterprise workflows | ⟦TO VERIFY⟧ |
+| Collections / HR / services | repetitive outreach and structured follow-up | ⟦TO VERIFY⟧ |
 
 ---
 
 # Competition — they sell tools; we accumulate memory
 
-| Competitor type | Their edge | Why we win |
+| Competitor type | Their edge | Why we can win |
 |---|---|---|
 | Global voice AI | maturity and capital | Saudi dialects, Arabic-first UX, local workflows |
 | Call centers | incumbency | 24/7 operation, cost efficiency, structured data exhaust |
@@ -318,7 +288,7 @@ layout: center
 
 **18-month milestones:**
 
-1. Convert enterprise pipeline into recurring revenue.
+1. Convert verified enterprise pipeline into recurring revenue.
 2. Prove repeatable sales motion in 2–3 verticals.
 3. Launch Siyadah as the memory/execution layer attached to Sondos data.
 
