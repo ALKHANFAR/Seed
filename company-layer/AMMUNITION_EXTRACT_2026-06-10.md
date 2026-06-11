@@ -1,9 +1,10 @@
 # D10 Ammunition Extract — Investor Truth Baseline
 
 > Original extraction: 2026-06-10 from siyadah-ai-os archive.  
-> Updated: 2026-06-11 after current financial model and founder customer list.  
+> Updated: 2026-06-11 after current financial model, founder customer list, and old Sondos dashboard review.  
 > Every investor-facing claim must carry a gate: **VERIFIED / PARTIAL / MISSING / SUPERSEDED**.  
-> **Important clarification:** Current MRR means **contracted/current MRR**, not cash collected. شركة تقدير is included in contracted MRR but has not paid yet; payment is expected soon.
+> **Important clarification:** Current MRR means **contracted/current MRR**, not cash collected. شركة تقدير is included in contracted MRR but has not paid yet; payment is expected soon.  
+> **Pipeline clarification:** The old `Sondos Ai dashborad` file is historical pipeline evidence. It shows many trials, not current paying customers.
 
 ---
 
@@ -11,7 +12,7 @@
 
 **Authoritative current file:** `company-layer/FINANCIAL_TRUTH_PACK_2026-06-11.md`
 
-Current finance numbers supersede all older deck/Mem/April-file numbers.
+Current finance numbers supersede all older deck/Mem/April-file/dashboard numbers.
 
 | Metric | Current value | Gate |
 |---|---:|---|
@@ -28,7 +29,7 @@ Current finance numbers supersede all older deck/Mem/April-file numbers.
 | Unit Gross Margin | 85.6%–88.0% | VERIFIED-INTERNAL — cost/min 0.36 SAR, sell/min 2.5–3.0 SAR |
 | Accounts receivable | 30,291.5 SAR | PARTIAL — includes uncollected amounts; تقدير 12,900 SAR is not paid yet |
 
-**Do not use older numbers** such as 14 paying customers, 11 active customers, ~18K MRR, 532.8K expected annual revenue, or 850K spending plan as current metrics. They are historical/context only.
+**Do not use older numbers** such as 14 paying customers, 11 active customers, ~18K MRR, 532.8K expected annual revenue, 850K spending plan, or dashboard customer/trial counts as current metrics. They are historical/context only.
 
 ---
 
@@ -79,34 +80,51 @@ Current finance numbers supersede all older deck/Mem/April-file numbers.
 **Contracted ARPU:** 10,197.875 SAR  
 **Rule:** Do not present contracted MRR as cash collected.
 
-### 4.2 Customer universe — historical / previous / current
+### 4.2 Historical pipeline dashboard — mostly trials, not MRR
 
-This list is the broader customer universe. It must not be confused with current contracted MRR customers.
+Source: old `Sondos Ai dashborad` Google Sheet, modified 2026-02-13.
 
-| # | Customer | Sector | Current classification |
+Dashboard summary showed:
+
+| Metric | Dashboard value | Investor use |
+|---|---:|---|
+| Campaigns | 25 | Historical go-to-market activity |
+| Meetings | 25 | Historical pipeline activity |
+| Trials | 16 | Trial traction only |
+| Customers | 1 | Historical dashboard customer, not current MRR |
+| Revenue | 995 SAR | Historical dashboard revenue only |
+
+The dashboard is useful to prove early sales motion and trials, but **not** current MRR/ARR. Current finance source remains `FINANCIAL_TRUTH_PACK_2026-06-11.md`.
+
+### 4.3 Customer universe — historical / previous / trial / current
+
+This list is the broader customer universe. It must not be confused with current contracted MRR customers. Most names here should be treated as **trial/pipeline/historical** unless later linked to a paid contract or invoice.
+
+| # | Customer | Sector | Classification |
 |---:|---|---|---|
-| 1 | حصيف | تحصيل | Historical/current status TBD |
-| 2 | سعودي كو | برمجيات | Historical/current status TBD |
-| 3 | مرن | خدمات HR | Historical/current status TBD |
-| 4 | Hall Simplify / Hal Simplify Solutions | برمجيات / حلول تقنية | Historical/current status TBD |
-| 5 | الورود | عقاري | Historical/current status TBD |
-| 6 | ساعي تقني | عقاري | Historical/current status TBD |
-| 7 | فانا | عقاري | Historical/current status TBD |
+| 1 | حصيف | تحصيل | Historical dashboard customer / paid-trial or small paid conversion; not current MRR unless revalidated |
+| 2 | سعودي كو / SaudiCo | برمجيات | Trial/pipeline — dashboard shows SaudiCo in trials and not converted |
+| 3 | مرن | خدمات HR | Trial/pipeline — dashboard shows trial ended, not converted |
+| 4 | Hall Simplify / Hal Simplify Solutions | برمجيات / حلول تقنية | Historical/pipeline, status TBD |
+| 5 | الورود | عقاري | Historical/pipeline, status TBD |
+| 6 | ساعي تقني | عقاري | Historical/pipeline, status TBD |
+| 7 | فانا | عقاري | Historical/pipeline, status TBD |
 | 8 | جمعية زمزم | جمعية خيرية | Current contracted MRR customer |
 | 9 | جمعية اعادة الحياة | طبي | Current contracted MRR customer |
-| 10 | فليتيك | برمجيات | Historical/current status TBD |
+| 10 | فليتيك | برمجيات | Historical/pipeline, status TBD |
 | 11 | الاناة الطبية | طبي | Current contracted MRR customer |
 | 12 | شركة تقدير | عقاري | Contracted MRR / not collected yet |
 | 13 | عميل غير متذكر 1 | MISSING | To identify |
 | 14 | عميل غير متذكر 2 | MISSING | To identify |
 
-**Investor rule:** use this as market traction breadth, not as current paying customer count unless status and evidence are confirmed.
+**Investor rule:** use this as market traction breadth and evidence of sales experiments, not as current customer count or revenue unless status and evidence are confirmed.
 
-### 4.3 Sondos proof assets
+### 4.4 Sondos proof assets
 
 - Use case: Arabic/Saudi voice agent for hospitals, clinics, real estate, collections, HR/services, and software/operations companies — PARTIAL.
 - Shared moat: “Sondos voice inside Siyadah” creates a voice-data wedge and memory moat — VERIFIED-INTERNAL as strategic thesis.
 - Unit economics: cost/minute 0.36 SAR and sell/minute 2.5–3.0 SAR → Unit GM 85.6%–88.0% — VERIFIED-INTERNAL.
+- Historical pipeline proof: campaigns → meetings → trials → limited conversion — PARTIAL. Useful for showing learning velocity, not financial scale.
 
 ---
 
@@ -158,10 +176,10 @@ This list is the broader customer universe. It must not be confused with current
 | # | Item | Current state |
 |---:|---|---|
 | 1 | MRR/ARR/growth | PARTIAL — contracted MRR/ARR captured; collection-adjusted MRR also tracked |
-| 2 | Customers/churn | PARTIAL — 4 active contracted customers; broader 12+2 customer universe captured; churn/status still TBD |
+| 2 | Customers/churn | PARTIAL — 4 active contracted customers; broader 12+2 mostly trial/pipeline universe captured; churn/status still TBD |
 | 3 | Call/minute volume | MISSING — important for voice proof |
 | 4 | ACV/pricing/margin | PARTIAL — Unit GM verified internally; pricing line still TBD |
-| 5 | CAC/channels | MISSING |
+| 5 | CAC/channels | PARTIAL — old dashboard shows campaigns/meetings/trials, but no reliable CAC yet |
 | 6 | Burn/runway | PARTIAL — burn captured; cash/runway missing |
 | 7 | Round/valuation/milestones | PARTIAL — $1M direction; valuation/milestones need final model |
 | 8 | Team | PARTIAL |
@@ -175,7 +193,7 @@ This list is the broader customer universe. It must not be confused with current
 - Scenario/system architecture documents can become an architecture/moat slide.
 - Sovereign Red Team / internal proof discipline can become diligence confidence.
 - Founder story: slow approvals / missed opportunities → “12 seconds instead of 48 hours” angle — strong Why-Now narrative.
-- Customer breadth across healthcare, real estate, collections, HR/services, charities, and software gives stronger wedge story than a single-sector pitch.
+- Customer/trial breadth across healthcare, real estate, collections, HR/services, charities, and software gives stronger wedge story than a single-sector pitch.
 
 ---
 
@@ -194,4 +212,4 @@ This list is the broader customer universe. It must not be confused with current
 
 ## 13) One-line investor traction wording — current safe version
 
-> Sondos has 40.8K SAR in contracted/current MRR across 4 active customers, with 27.9K SAR excluding تقدير until collection. One customer, تقدير, represents 12.9K SAR and has not paid yet but is expected soon. The broader customer universe spans healthcare, real estate, collections, HR/services, charities, and software. The voice unit economics are strong: minute cost is ~0.36 SAR and resale price ranges from 2.5 to 3.0 SAR, implying 85.6%–88.0% unit gross margin. Siyadah turns this voice-data wedge into a long-term memory and execution moat.
+> Sondos has 40.8K SAR in contracted/current MRR across 4 active customers, with 27.9K SAR excluding تقدير until collection. One customer, تقدير, represents 12.9K SAR and has not paid yet but is expected soon. Beyond current MRR, the historical pipeline shows 25 campaigns, 25 meetings, and 16 trials, giving evidence of market experimentation across healthcare, real estate, collections, HR/services, charities, and software. The voice unit economics are strong: minute cost is ~0.36 SAR and resale price ranges from 2.5 to 3.0 SAR, implying 85.6%–88.0% unit gross margin. Siyadah turns this voice-data wedge into a long-term memory and execution moat.
