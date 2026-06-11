@@ -2,7 +2,8 @@
 
 > Original extraction: 2026-06-10 from siyadah-ai-os archive.  
 > Updated: 2026-06-11 after current financial model and founder customer list.  
-> Every investor-facing claim must carry a gate: **VERIFIED / PARTIAL / MISSING / SUPERSEDED**.
+> Every investor-facing claim must carry a gate: **VERIFIED / PARTIAL / MISSING / SUPERSEDED**.  
+> **Important clarification:** Current MRR means **contracted/current MRR**, not cash collected. شركة تقدير is included in contracted MRR but has not paid yet; payment is expected soon.
 
 ---
 
@@ -14,17 +15,18 @@ Current finance numbers supersede all older deck/Mem/April-file numbers.
 
 | Metric | Current value | Gate |
 |---|---:|---|
-| Paying customers now | 4 | PARTIAL — needs contract/invoice proof linked |
-| MRR | 40,791.5 SAR | PARTIAL — from current financial model |
-| ARR | 489,498 SAR | PARTIAL — MRR x 12 |
-| ARPU | 10,197.875 SAR | PARTIAL — MRR / 4 customers |
+| Active contracted customers | 4 | PARTIAL — needs contract/invoice proof linked |
+| Contracted MRR | 40,791.5 SAR | PARTIAL — includes تقدير before cash collection |
+| Collection-adjusted MRR excluding تقدير until paid | 27,891.5 SAR | INTERNAL-CAUTION |
+| ARR from contracted MRR | 489,498 SAR | PARTIAL — 40,791.5 x 12 |
+| ARPU from contracted MRR | 10,197.875 SAR | PARTIAL — 40,791.5 / 4 customers |
 | Collected revenue, last 6 months | 56,886 SAR | PARTIAL/CONFIRMED IN SHEET — needs bank proof |
 | Monthly burn | 48,250 SAR | PARTIAL — needs expense evidence |
-| Net burn | 7,458.5 SAR | PARTIAL |
+| Net burn vs contracted MRR | 7,458.5 SAR | PARTIAL |
 | Cash on hand | MISSING | BLOCKER for runway |
 | Runway | MISSING / not meaningful | requires cash balance |
 | Unit Gross Margin | 85.6%–88.0% | VERIFIED-INTERNAL — cost/min 0.36 SAR, sell/min 2.5–3.0 SAR |
-| Accounts receivable | 30,291.5 SAR | PARTIAL — needs invoice/collection proof |
+| Accounts receivable | 30,291.5 SAR | PARTIAL — includes uncollected amounts; تقدير 12,900 SAR is not paid yet |
 
 **Do not use older numbers** such as 14 paying customers, 11 active customers, ~18K MRR, 532.8K expected annual revenue, or 850K spending plan as current metrics. They are historical/context only.
 
@@ -62,22 +64,24 @@ Current finance numbers supersede all older deck/Mem/April-file numbers.
 
 ## 4) Sondos — current commercial truth
 
-### 4.1 Current paying customers used for MRR
+### 4.1 Active contracted customers used for MRR
 
-| # | Customer | Sector | Current MRR | Gate |
-|---:|---|---|---:|---|
-| 1 | الاناة الطبية | طبي | 17,391.5 SAR | PARTIAL |
-| 2 | جمعية زمزم | جمعية خيرية | 5,400 SAR | PARTIAL |
-| 3 | شركة تقدير | عقاري | 12,900 SAR | PARTIAL |
-| 4 | جمعية اعادة الحياة | طبي | 5,100 SAR | PARTIAL |
+| # | Customer | Sector | Current MRR | Cash collection status | Gate |
+|---:|---|---|---:|---|---|
+| 1 | الاناة الطبية | طبي | 17,391.5 SAR | Needs proof / reconcile with A/R | PARTIAL |
+| 2 | جمعية زمزم | جمعية خيرية | 5,400 SAR | Needs proof | PARTIAL |
+| 3 | شركة تقدير | عقاري | 12,900 SAR | **Not paid yet; likely soon** | PARTIAL / A/R |
+| 4 | جمعية اعادة الحياة | طبي | 5,100 SAR | Needs proof | PARTIAL |
 
-**Current MRR:** 40,791.5 SAR  
-**Current ARR:** 489,498 SAR  
-**Current ARPU:** 10,197.875 SAR
+**Contracted MRR:** 40,791.5 SAR  
+**Collection-adjusted MRR excluding تقدير until paid:** 27,891.5 SAR  
+**Contracted ARR:** 489,498 SAR  
+**Contracted ARPU:** 10,197.875 SAR  
+**Rule:** Do not present contracted MRR as cash collected.
 
 ### 4.2 Customer universe — historical / previous / current
 
-This list is the broader customer universe. It must not be confused with current paying MRR customers.
+This list is the broader customer universe. It must not be confused with current contracted MRR customers.
 
 | # | Customer | Sector | Current classification |
 |---:|---|---|---|
@@ -88,11 +92,11 @@ This list is the broader customer universe. It must not be confused with current
 | 5 | الورود | عقاري | Historical/current status TBD |
 | 6 | ساعي تقني | عقاري | Historical/current status TBD |
 | 7 | فانا | عقاري | Historical/current status TBD |
-| 8 | جمعية زمزم | جمعية خيرية | Current MRR customer |
-| 9 | جمعية اعادة الحياة | طبي | Current MRR customer |
+| 8 | جمعية زمزم | جمعية خيرية | Current contracted MRR customer |
+| 9 | جمعية اعادة الحياة | طبي | Current contracted MRR customer |
 | 10 | فليتيك | برمجيات | Historical/current status TBD |
-| 11 | الاناة الطبية | طبي | Current MRR customer |
-| 12 | شركة تقدير | عقاري | Current MRR customer |
+| 11 | الاناة الطبية | طبي | Current contracted MRR customer |
+| 12 | شركة تقدير | عقاري | Contracted MRR / not collected yet |
 | 13 | عميل غير متذكر 1 | MISSING | To identify |
 | 14 | عميل غير متذكر 2 | MISSING | To identify |
 
@@ -153,8 +157,8 @@ This list is the broader customer universe. It must not be confused with current
 
 | # | Item | Current state |
 |---:|---|---|
-| 1 | MRR/ARR/growth | PARTIAL — current MRR/ARR captured in Financial Truth Pack |
-| 2 | Customers/churn | PARTIAL — 4 current paying customers; broader 12+2 customer universe captured; churn/status still TBD |
+| 1 | MRR/ARR/growth | PARTIAL — contracted MRR/ARR captured; collection-adjusted MRR also tracked |
+| 2 | Customers/churn | PARTIAL — 4 active contracted customers; broader 12+2 customer universe captured; churn/status still TBD |
 | 3 | Call/minute volume | MISSING — important for voice proof |
 | 4 | ACV/pricing/margin | PARTIAL — Unit GM verified internally; pricing line still TBD |
 | 5 | CAC/channels | MISSING |
@@ -178,8 +182,9 @@ This list is the broader customer universe. It must not be confused with current
 ## 12) Blocking gates before investor send
 
 - [ ] Identify the 2 missing historical customers.
-- [ ] Tag every customer as: Current paying / Past paid / Trial / Negotiation / Lost / Unknown.
-- [ ] Link contracts, invoices, or proof for the 4 current MRR customers.
+- [ ] Tag every customer as: Current contracted / Paid / Unpaid A/R / Past paid / Trial / Negotiation / Lost / Unknown.
+- [ ] Link contracts, invoices, or proof for the 4 active contracted customers.
+- [ ] Confirm تقدير payment date; until paid, show as A/R not collected cash.
 - [ ] Add cash balance to calculate runway.
 - [ ] Add bank/receipt proof for collected revenue.
 - [ ] Replace deck placeholders and remove old 14-customer / 18K-MRR claim.
@@ -189,4 +194,4 @@ This list is the broader customer universe. It must not be confused with current
 
 ## 13) One-line investor traction wording — current safe version
 
-> Sondos has generated 40.8K SAR in current MRR across 4 paying customers, with a broader customer universe across healthcare, real estate, collections, HR/services, charities, and software. The voice unit economics are strong: minute cost is ~0.36 SAR and resale price ranges from 2.5 to 3.0 SAR, implying 85.6%–88.0% unit gross margin. Siyadah turns this voice-data wedge into a long-term memory and execution moat.
+> Sondos has 40.8K SAR in contracted/current MRR across 4 active customers, with 27.9K SAR excluding تقدير until collection. One customer, تقدير, represents 12.9K SAR and has not paid yet but is expected soon. The broader customer universe spans healthcare, real estate, collections, HR/services, charities, and software. The voice unit economics are strong: minute cost is ~0.36 SAR and resale price ranges from 2.5 to 3.0 SAR, implying 85.6%–88.0% unit gross margin. Siyadah turns this voice-data wedge into a long-term memory and execution moat.
