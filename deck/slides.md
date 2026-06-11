@@ -26,14 +26,19 @@ h1 { color: var(--brand-primary); font-weight: 800; }
 h2 { color: var(--brand-primary); }
 .accent { color: var(--brand-accent); font-weight: 700; }
 .gold { color: #b8860b; font-weight: 800; }
-.kpi { font-size: 2.6rem; font-weight: 800; color: var(--brand-primary); }
-.kpi-label { color: #555; font-size: .9rem; }
+.teal { color: var(--brand-teal); font-weight: 800; }
+.kpi { font-size: 2.45rem; font-weight: 800; color: var(--brand-primary); }
+.kpi-small { font-size: 1.6rem; font-weight: 800; color: var(--brand-primary); }
+.kpi-label { color: #555; font-size: .88rem; }
+.note { color: #666; font-size: .82rem; }
+.box { background: #fff; border-radius: 18px; padding: 22px; box-shadow: 0 10px 35px rgba(0,0,0,.06); }
 </style>
 
 # D10 Group
 ## Sondos · Siyadah
 
-**We turn every business phone call into compounding institutional memory.**
+**Infrastructure for the Autonomous Enterprise.**
+
 <span class="accent">Voice is the wedge. Memory is the moat.</span>
 
 Seed Round · 2026 · Riyadh
@@ -44,69 +49,114 @@ layout: center
 
 # The answer, first
 
-D10 is building the **automated operating system for Saudi businesses**.
+D10 is building the **automated operating system for Arabic-first businesses**.
 
-- **Sondos** — Arabic-first AI voice agents → immediate ROI, immediate revenue
-- **Siyadah** — plain-Arabic automation orchestrator → the memory & execution layer
-- Every Sondos call feeds Siyadah's memory → <span class="accent">value compounds with usage</span>
+- **Sondos** — Arabic AI voice employees that create immediate revenue proof.
+- **Siyadah** — plain-Arabic automation and memory layer that compounds every customer interaction.
+- Every Sondos call feeds Siyadah's memory → <span class="accent">data compounds, workflows improve, switching costs rise.</span>
 
-Raising **$1,000,000** to reach **280 customers · 9M SAR ARR · Siyadah commercial launch** in 18 months.
-
----
-
-# Saudi businesses bleed on three fronts
-
-<div class="grid grid-cols-3 gap-6 pt-6">
-<div>
-
-### 📞 Calls
-Missed calls, no-shows, cold leads — human call teams are costly and sleep at night.
-<div class="kpi">⟦X⟧</div>
-<div class="kpi-label">تكلفة 5-10 موظفي متابعة: 300-600K ريال/سنة — والمعرفة ترحل معهم</div>
-</div>
-<div>
-
-### 🧠 Memory
-What a customer said last month leaves with the employee who heard it.
-</div>
-<div>
-
-### ⚙️ Automation
-Global tools require engineers SMBs don't have — and speak English first.
-</div>
-</div>
+Raising **$1M Seed** to turn current revenue + enterprise pipeline into a repeatable Saudi AI operating system.
 
 ---
 
-# Why now — four waves, one moment
+# The problem — the operating gap
 
-1. **Regulatory** — PDPL & data-localization make the compliant local player *structurally* favored
-2. **Economic** — Vision 2030 productivity push + rising labor cost = automation is a CFO decision
-3. **Technical** — Arabic voice AI just crossed natural-conversation quality; MCP makes agent↔system wiring cheap
-4. **Category** — "Company Brain / Agentic OS" is forming globally — <span class="accent">no one is building it Arabic-first</span>
+Saudi service businesses do not just miss calls. They lose operating memory.
+
+<div class="grid grid-cols-3 gap-5 pt-6">
+<div class="box">
+
+### 📞 Lost demand
+Missed calls, slow follow-up, no-shows, repeated questions, and weak collection loops.
+</div>
+<div class="box">
+
+### 🧠 Lost memory
+Customer context lives inside employees, WhatsApp chats, and scattered sheets — then disappears.
+</div>
+<div class="box">
+
+### ⚙️ Lost execution
+Global tools require engineers, English workflows, and manual system-to-system coordination.
+</div>
+</div>
+
+<br>
+
+**The core gap:** humans work in limited windows. Digital employees operate continuously, remember every interaction, and trigger the next action automatically.
 
 ---
 
-# Sondos — the agent that acts during the call
+# The problem, quantified carefully
 
-- Inbound & outbound, real Saudi dialects
-- **Mid-Call Tools**: reads the CRM, checks balances, books in Cal.com — *while talking*
-- Post-call: updates HubSpot/GoHighLevel/Sheets, fires WhatsApp — drag-&-drop, no code
-- Integrations: SIP · WhatsApp · Slack · email · any API · MCP
+We use the old deck's strongest insight but keep it evidence-safe:
 
-> Sold on immediate ROI: answered calls, recovered no-shows, collected payments.
+| Gap | What it means | Investor treatment |
+|---|---|---|
+| Availability gap | human follow-up is business-hours limited; AI voice can run 24/7 | strong operating logic |
+| Memory gap | calls are not converted into institutional memory | core moat problem |
+| Action gap | the next workflow is often manual or forgotten | core product wedge |
+| Sector-loss estimates | useful for market sizing but must be externally sourced | not final until sourced |
+
+<span class="note">Do not use large loss numbers as final claims until external sources are attached.</span>
 
 ---
 
-# Siyadah — automation in plain Arabic
+# Why now — the window is open
+
+1. **Technology** — Arabic voice AI and LLM orchestration are now usable enough for real operations.
+2. **Economics** — rising labor costs turn missed follow-up and call inefficiency into CFO-level pain.
+3. **Policy** — Vision 2030, data governance, and local AI infrastructure favor Saudi-first operators.
+4. **Category** — the world is moving from SaaS tools to agentic operating systems.
+
+<span class="accent">The Arabic-first autonomous enterprise category is not locked yet.</span>
+
+---
+
+# Our belief
+
+<div class="grid grid-cols-3 gap-5 pt-6">
+<div class="box">
+
+### Belief I
+Operational intelligence is the next infrastructure layer — like SaaS was in 2010.
+</div>
+<div class="box">
+
+### Belief II
+Arabic markets can leapfrog because labor pressure, digitization, and AI readiness are colliding.
+</div>
+<div class="box">
+
+### Belief III
+The winner combines voice + memory + execution. **Sondos + Siyadah = defensible wedge.**
+</div>
+</div>
+
+---
+
+# Sondos — the voice wedge
+
+- Arabic/Saudi voice AI for inbound and outbound conversations.
+- Post-call actions: update sheets/CRM, trigger WhatsApp, notify team, and create structured records.
+- Best-fit early sectors: healthcare, real estate, charities, collections, HR/services, insurance, and software operations.
+- Sold on immediate ROI: answered calls, recovered missed opportunities, and structured follow-up.
+
+<span class="accent">Sondos creates revenue today and data for Siyadah tomorrow.</span>
+
+---
+
+# Siyadah — the memory and execution layer
 
 ```text
-Employee types:  "كل عميل ما رد على مكالمتين، أرسل له عرض واتساب وسجّله في الشيت"
-Orchestrator:    parses intent → builds the workflow → runs it on the engine
+Employee types:  "كل عميل ما رد على مكالمتين، أرسل له واتساب وسجّله في الشيت"
+Siyadah:         understands intent → builds workflow → executes → remembers
 Result:          automation without engineers
 ```
 
-The strategic role: **the memory and execution layer every call feeds.**
+Siyadah turns scattered company activity into a memory layer that can act.
+
+**The strategic role:** every call, customer, and workflow becomes part of the company brain.
 
 ---
 layout: center
@@ -115,8 +165,11 @@ class: text-center
 
 # LIVE PROOF
 
-### A real call happens here — watch the agent book, update, and trigger automation
-<span class="accent">⟦rehearsed live demo · recorded backup ready⟧</span>
+### Demo path
+
+Call → structured data → workflow trigger → dashboard evidence
+
+<span class="accent">Use recorded backup if live demo conditions are not stable.</span>
 
 ---
 
@@ -131,77 +184,123 @@ D --> E[Better customer outcomes]
 E --> A
 ```
 
-Tools get replaced. **Memory doesn't migrate.**
+Tools get replaced. **Memory does not migrate easily.**
 
 ---
 
----
-
-# The Dream — Conditional on This Round
-
-**كل شركة عربية لها جهاز عصبي رقمي.** يرى · يفهم · يقرر · ينفذ · يقيس — بتدخل بشري <5%
-
-| اليوم (مُثبت) | بهذه الجولة — 18 شهراً | Series A وما بعد |
-|---|---|---|
-| الحلقة تعمل بالإنتاج: 18 موظفاً رقمياً، 19 تكاملاً | 280 عميلاً · 9M ريال ARR · **سيادة GA** فوق قاعدة سندس | قائد فئة Agentic OS العربي · توسع خليجي |
-| سندس تموّل التعلم: 14 عميلاً يدفعون | تشغيل **Data Flywheel**: كل مكالمة → ذاكرة → خندق أعمق | الذاكرة المتراكمة = بنية تحتية لا تُنسخ |
-
-> وصلنا للإثبات بـ 120K ريال ملائكة. هذا ما يفعله $1M.
-
----
-
-# Proof — مُثبت بسجلات الإنتاج
+# Current traction — revenue baseline
 
 <div class="grid grid-cols-4 gap-4 pt-8">
-<div><div class="kpi">~18K SAR</div><div class="kpi-label">MRR</div></div>
-<div><div class="kpi gold">⟦X%⟧</div><div class="kpi-label">MoM growth</div></div>
-<div><div class="kpi">14</div><div class="kpi-label">paying customers</div></div>
-<div><div class="kpi">⟦X%⟧</div><div class="kpi-label">retention</div></div>
+<div><div class="kpi">29.0K</div><div class="kpi-label">SAR current MRR</div></div>
+<div><div class="kpi">347.6K</div><div class="kpi-label">SAR implied ARR</div></div>
+<div><div class="kpi gold">87%</div><div class="kpi-label">raw unit gross margin</div></div>
+<div><div class="kpi">4</div><div class="kpi-label">active revenue customers</div></div>
 </div>
 
 <br>
 
-> سندس اليوم: 14 عميلاً مدفوعاً · MRR ~18K ريال · الحمادي وSMC وسبل على اللوحة\nالحمادي: ضياع مكالمات بـ150-200K ريال/شهر → رد فوري 100%\nسيادة: E2E مُثبت بالسجلات — 18 موظفاً رقمياً · 19 تكاملاً
+**Current MRR includes تقدير correctly as an annual contract:** 12,900 SAR/year = 1,075 SAR monthly equivalent.
+
+<span class="note">All metrics remain subject to evidence pack: contracts, invoices, and collection proof.</span>
+
+---
+
+# Current customer base
+
+| Customer | Sector | MRR treatment | Monthly equivalent |
+|---|---|---|---:|
+| الاناة الطبية | Healthcare | Current MRR | 17,391.5 SAR |
+| جمعية زمزم | Charity | Current MRR | 5,400 SAR |
+| جمعية إعادة الحياة | Healthcare | Current MRR | 5,100 SAR |
+| شركة تقدير | Real estate | Annual contract | 1,075 SAR |
+
+**Current MRR:** 28,966.5 SAR  
+**Current ARR:** 347,598 SAR
+
+---
+
+# Enterprise pipeline — upside not counted in MRR
+
+<div class="grid grid-cols-3 gap-6 pt-8">
+<div><div class="kpi">57K</div><div class="kpi-label">SAR/month potential</div></div>
+<div><div class="kpi">684K</div><div class="kpi-label">SAR/year potential</div></div>
+<div><div class="kpi-small">SAICO</div><div class="kpi-label">enterprise pipeline</div></div>
+</div>
+
+<br>
+
+SAICO is shown as **enterprise pipeline only**. It is not counted in current MRR or ARR until revenue activation.
+
+<span class="accent">One enterprise account can exceed the current full MRR base.</span>
+
+---
+
+# Historical GTM evidence
+
+Old Sondos dashboard evidence shows early market experimentation:
+
+| Metric | Historical dashboard value | Use |
+|---|---:|---|
+| Campaigns | 25 | GTM activity |
+| Meetings | 25 | Sales motion |
+| Trials | 16 | Trial demand |
+| Customers | 1 | Historical conversion |
+| Revenue | 995 SAR | Historical dashboard revenue |
+
+Channels included email campaigns, WhatsApp AI campaigns, and call AI campaigns.
+
+<span class="note">This is pipeline evidence, not current MRR.</span>
 
 ---
 
 # Business model & unit economics
 
-- Pricing: ⟦model — subscription / per-minute / seats⟧ · ACV ⟦X⟧
-- Gross margin **⟦X%⟧** after voice/LLM per-minute cost of ⟦X⟧
-- CAC ⟦X⟧ · payback ⟦X⟧ months
-- Expansion: customers add Siyadah workflows on the same data → NRR ⟦X%⟧
+- Revenue model: voice AI packages + usage economics + workflow expansion.
+- Raw unit gross margin: **87%**.
+- Minute economics: cost/minute around **0.36 SAR**, resale around **2.5–3.0 SAR**.
+- Expansion path: Sondos voice data → Siyadah workflows → memory and automation attach.
+
+<span class="accent">Voice generates the first ROI. Memory creates the long-term moat.</span>
 
 ---
 
-# Market — bottom-up, not 1%-of-a-billboard
+# Market wedge — bottom-up from where we already see demand
 
-| | |
+We are not starting with a theoretical TAM. We start from sectors already touched by revenue, trials, and pipeline:
+
+| Sector | Why it hurts |
 |---|---|
-| Target establishments (top 3 sectors, KSA) | ⟦N⟧ |
-| × ACV (actual) | ⟦X⟧ |
-| = Obtainable KSA market | **⟦SOM⟧** |
-| GCC expansion path | ⟦X⟧ |
+| Healthcare | missed calls, appointments, no-shows, follow-up |
+| Real estate | lead follow-up, valuation, scheduling, repeated inquiries |
+| Charities | donor/customer calls, campaign follow-up, operations |
+| Insurance | high-volume service and enterprise workflows |
+| Collections / HR / services | repetitive outreach and structured follow-up |
 
 ---
 
 # Competition — they sell tools; we accumulate memory
 
-| Competitor | Their edge | Why we win |
+| Competitor type | Their edge | Why we win |
 |---|---|---|
-| Global voice-AI | maturity, capital | لهجات سعودية · PDPL/توطين · تكاملات محلية · حاجز صوت سندس 2-3 سنوات |
-| Call centers | incumbency | cost/call · 24/7 · structured data exhaust |
-| Global automation | breadth | Arabic-first UX · voice data wedge |
-| Future local clones | parity | data head-start · memory moat · ship velocity |
+| Global voice AI | maturity and capital | Saudi dialects, Arabic-first UX, local workflows |
+| Call centers | incumbency | 24/7 operation, cost efficiency, structured data exhaust |
+| Automation tools | breadth | Arabic commands, voice data wedge, business-user workflow creation |
+| Future local clones | speed to copy features | data history, memory moat, execution velocity |
 
 ---
 
-# Team — and we are our own first customer
+# Team and operating discipline
 
-**عبدالرحمن الخنفري — CEO:** سنوات في إدارة مراكز الاتصال السعودية؛ يبني الحل للمشكلة التي عاشها وخسر بسببها صفقات. **عبدالملك المنيف — شريك تقني:** بنى الـ Orchestrator والمعمارية multi-tenant المثبتة بالسجلات.
+Founder: **Abdulrahman Fahad Alkhanfari**
 
-The company itself runs on agent reviews (CEO review, QA, ship gates) —
-**15 بدوام كامل يشحنون كفريق ضعف حجمهم**: الشركة تُدار بوكلائها (CEO-Review, QA, Ship) — والريبو مفتوح للفحص.
+D10 runs with investor-grade operating discipline:
+
+- Truth packs before claims.
+- Evidence gates before investor use.
+- Technical proof before storytelling.
+- Sondos is the revenue wedge; Siyadah is the scalable operating system.
+
+<span class="accent">We are building the company brain while using the company as the first lab.</span>
 
 ---
 layout: center
@@ -209,13 +308,20 @@ layout: center
 
 # The Ask
 
-## $1,000,000 Seed
-**Use of funds:** 50% team & engineering · 30% growth & marketing · 20% product
+## $1M Seed
 
-**18-month milestones → Series-A ready:**
-1. 9M SAR ARR
-2. 280 paying customers
-3. Siyadah commercial GA + voice-memory attach on Sondos base
+**Use of funds:**
+
+- 50% product and engineering
+- 30% growth and enterprise sales
+- 20% operations, compliance, and data-room readiness
+
+**18-month milestones:**
+
+1. Convert enterprise pipeline into recurring revenue.
+2. Prove repeatable sales motion in 2–3 verticals.
+3. Launch Siyadah as the memory/execution layer attached to Sondos data.
 
 <br>
-<span class="accent">عبدالرحمن الخنفري · ⟦البريد الرسمي — ليس d10ksa3@gmail: احجز abdulrahman@d10.sa⟧</span>
+
+<span class="accent">Abdulrahman Fahad Alkhanfari · ranaan23@gmail.com</span>
