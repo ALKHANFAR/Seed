@@ -1,125 +1,192 @@
-# D10 Ammunition Extract — من أرشيف siyadah-ai-os (394 وثيقة، 652K كلمة)
-> استخراج بتاريخ 2026-06-10 · كل بند: المعلومة — [المصدر] — TAG
+# D10 Ammunition Extract — Investor Truth Baseline
 
-## 1) الشركة الأم والهوية
-- المؤسس: عبدالرحمن فهد الخنفري (ABDULRAHMAN FAHAD ALKHANFARI) — role=founder في DB — [05، سجل tenants، 2026-05-11] — VERIFIED
-- الاسم الإنجليزي المعتمد للمجموعة في مراسلات المستثمرين: **"Ten Dimensions — Infrastructure for the Autonomous Enterprise"** — [05، مسودة Cold Email] — VERIFIED
-- الفريق الموثق: رانيا (عمليات/تسويق لسندس وسيادة معاً) + "مدير العمليات" — [07 مهام رانيا، 06 Smoke Test] — VERIFIED
-- ⚠️ الهيكل القانوني للمجموعة وملكية الشركات التابعة: MISSING (بحثت: هيكل، ملكية، سجل تجاري)
-
-## 2) سيادة — الأطروحة الاستثمارية الموثقة (2026-05-20)
-- الصياغة المعتمدة: "سيادة نظام تشغيل ذكي للشركات: يكتشف أين تضيع الفلوس، يبني موظفين رقميين يغلقون الهدر، ويثبت الأثر بالأرقام" — VERIFIED
-- صياغة المستثمر: "لا نستبدل موظفاً — نستبدل الفجوة بين الأنظمة والإدارة؛ هناك تضيع الفلوس" — VERIFIED
-- الرؤية: امتصاص هوية المنشأة من URL خلال 60 ثانية → تقرير "مرآة الحقيقة" → "أصلح هذا لي" → موظفون رقميون؛ تدخل بشري <5% — [01 CLAUDE.md] — VERIFIED (كرؤية معتمدة، ليست ميزة مثبتة بالكامل)
-- الحلقة الخمسية: يرى → يفهم → يقرر → ينفذ → يقيس (ROI) — VERIFIED
-- التشبيه المعتمد: "سيادة = الجهاز العصبي للشركة" — VERIFIED
-
-## 3) سيادة — الحالة التقنية (لحظة 2026-05-11)
-- E2E مثبت: Chat → build_dynamic_flow → flow_id → digital_employees → Dashboard — [05، سجلات Railway + DB] — VERIFIED
-- 18 موظفاً رقمياً نشطاً في حساب المؤسس، 19 اتصالاً نشطاً من Activepieces — VERIFIED (بيئة المؤسس، ليست عملاء)
-- المعمارية: Next.js (Siyadah-6.5) + siyadah-orchestrator + Activepieces + Postgres (24 جدولاً multi-tenant) + Redis على Railway — VERIFIED
-- المرحلة: **ما قبل الإطلاق** بتاريخ 2026-05-11؛ بلوكرات إطلاق موثقة (audit trigger، مزامنة connections، اختيار الأدوات) — VERIFIED
-- نظام تشغيل داخلي بأسلوب gstack موثق فعلياً: .claude/commands (ceo-review, qa, ship, retro...) + .agents/roles — "نحن أول عميل لمنتجنا" حقيقة قابلة للعرض — VERIFIED
-
-## 4) سندس — الحقائق الموثقة في الأرشيف
-- عملاء فعليون موجودون (مراسلات "سندس عميل — إيميل رانيا") — VERIFIED وجوداً، MISSING عدداً
-- رقم موحد 0115102700 + نظام IVR قيد الاعتماد (مبيعات/دعم/إدارة) — [07] — VERIFIED
-- حالة استخدام موثقة: voice agent للمستشفيات/العيادات يحجز بمعرفة حقيقية (بروتوكولات، قوائم أطباء) — [06] — VERIFIED
-- **الخندق المشترك الموثق: "صوت من سندس" داخل سيادة = حاجز تنافسي 2-3 سنوات** (Agent خدمة عملاء يتكلم بالسعودي) — [01 الميزة 4] — VERIFIED كموقف معلن
-- خطة نمو ما بعد العيد + خطة تسويق سندس — VERIFIED وجوداً
-
-## 5) التسعير (المعتمد في الدستور)
-- ثلاثي: Free Trial → Starter $25/شهر → Wallet استهلاكي (UsageMeter لحظي: tokens، تنفيذات، WhatsApp، scraping؛ تنبيه 80%؛ auto-recharge عبر Stripe/Moyasar) — [01 §20] — VERIFIED كنموذج معتمد
-- معادلة القيمة المعلنة: 6 موظفين أذكياء بـ 199-999 ريال/شهر مقابل 5-10 موظفين بـ 300-600 ألف ريال/سنة — [01] — VERIFIED كرسالة، PARTIAL كتسعير نهائي (⚠️ CONFLICT محتمل مع $25 — يحتاج حسماً)
-
-## 6) السوق (الأرقام الداخلية — تحتاج مصادر قبل العرض)
-- السعودية: 4,839 مجمع طبي + 50,000+ SME؛ الخليج: 200,000+ شركة؛ العالم العربي: 1M+؛ سوق الأتمتة العالمي $375B في 2026 — [01] — PARTIAL (لا مصادر مسماة)
-
-## 7) المستثمرون — قائمتهم الداخلية المرتبة (مفاجأة استراتيجية)
-- Tier 1: Shorooq (#1)، BECO (#2)، Global Ventures (#3)، MEVP (#4)، Wamda (#5)
-- Tier 2: STV (#6)، Raed، Vision Ventures، 500 Global، Flat6Labs
-- Tier 3: ... Impact46 (#20 الأخير!) — [05] — VERIFIED كقائمة داخلية
-- استراتيجية Outreach معتمدة: لا Deck في أول رسالة؛ Hook + Vision + Traction + طلب 20 دقيقة؛ استهداف Partner/Principal لا info@ — VERIFIED
-- ⚠️ تعارض مع التوجيه الأصلي (STV/Impact46/Shorooq كأهداف أولى) — يحتاج قرار مؤسس
-
-## 8) خطة اختبار السوق الجاهزة (Smoke Test "المصنع")
-- 72 ساعة: Landing (Framer/Carrd) + 3 حملات × $50 بثلاث زوايا (الكفاءة / "قرارات 12 ثانية بدل موافقات 48 ساعة" / الأتمتة بالطلب الصوتي) → CTR/Conversion يقرر أولوية البناء — [06] — VERIFIED كخطة
-
-## 9) بنود الذخيرة العشرة — الحالة
-| # | البند | الحالة |
-|---|---|---|
-| 1 | MRR/ARR + النمو | **MISSING** (بحثت: MRR، إيراد، revenue، فاتورة) |
-| 2 | عدد العملاء + Churn | MISSING عدداً (وجود عملاء سندس VERIFIED) |
-| 3 | حجم المكالمات/الدقائق | MISSING |
-| 4 | ACV/التسعير/الهامش | PARTIAL (نموذج معتمد، لا هوامش) |
-| 5 | CAC والقنوات | MISSING (خطة Smoke Test فقط) |
-| 6 | Burn/Runway | MISSING |
-| 7 | الجولة/التقييم/المعالم | MISSING |
-| 8 | الفريق | PARTIAL (مؤسس + رانيا + مدير عمليات) |
-| 9 | قصص عملاء بأرقام | MISSING |
-| 10 | القطاعات وحجمها | PARTIAL (صحي أولاً؛ أرقام بلا مصادر) |
-
-## 10) كنوز غير متوقعة
-- وثيقة "السيناريوهات العميقة" تحتوي خريطة أدوات من 8 طبقات (حواس/أذن/عين مستندات/عقل/يد/مال/حوكمة/قياس) — مادة شريحة معمارية جاهزة
-- "تقرير السيادة المطلقة (Sovereign Red Team Report)" موجود في الأرشيف — أصل Diligence جاهز
-- قصة مؤسس قابلة للسرد: "فقدان صفقة بسبب موافقات 48 ساعة" → ولدت زاوية "12 ثانية" — مادة Why-Now شخصية قوية
-
+> Original extraction: 2026-06-10 from siyadah-ai-os archive.  
+> Updated: 2026-06-11 after current financial model and founder customer list.  
+> Every investor-facing claim must carry a gate: **VERIFIED / PARTIAL / MISSING / SUPERSEDED**.
 
 ---
-# تحديث الذخيرة — دفعة المؤسس 2026-06-10 (مساءً)
 
-## الأرقام التجارية لسندس (من Mem + آخر Pitch Deck)
-- عملاء مدفوعون: **14** (⚠️ نسخة أخرى من العرض تقول 11 — يُوحَّد قبل أي إرسال) — PARTIAL
-- MRR: **~18,000 ريال/شهر** — VERIFIED من ملاحظات الاستثمار
-- ARPU المعلن: 3,000–10,000 ريال/شهر — ⚠️ **تعارض حسابي:** 18,000÷14 = ~1,285 ريال فعلياً. إما العدد يشمل غير مكتملي الدفع أو الـ ARPU طموح تسعيري لا واقع فوترة. يُحسم.
-- عملاء مجانيون سابقون: ~30 — PARTIAL (قصة تحويل أم إنذار churn؟ تُروى بوعي)
-- حجم المكالمات: MISSING
-- قصة العميل الذهبية: مجموعة الحمادي / مستشفى SMC — ضياع مكالمات يكلف 150-200 ألف ريال/شهر → رد فوري 100% — VERIFIED كقصة معتمدة، الشعارات المسموحة: الحمادي، SMC، سبل
+## 0) Current source of truth — finance
 
-## الجولة (قرار المؤسس النهائي يتقدم على العرض القديم)
-- **الطلب: 1,000,000 دولار (~3.75M ريال). النسبة/التقييم: مفتوح للتفاوض** — قرار مؤسس 2026-06-10
-- مرجع تاريخي: عرض سابق طلب 4M ريال مقابل 10% (تقييم 40M ريال) — لا يُذكر للمستثمر كـ anchor إلا بوعي: 40M على ARR ~216K ريال = ~185x مضاعف، سيُهاجَم
-- استخدام المبلغ (من العرض): فريق 50% / تسويق 30% / منتج 20%
-- معالم 18 شهراً: 280 عميلاً → ARR ~9M ريال (✓ الحساب متسق داخلياً: يفترض ARPU ~2,700 ريال — وهذا يدعم الرقم الفعلي لا الـ 3-10K)
-- جولة سابقة: 120,000 ريال من ملائكة — VERIFIED
+**Authoritative current file:** `company-layer/FINANCIAL_TRUTH_PACK_2026-06-11.md`
 
-## الكيان والفريق
-- الكيان الرافع: **شركة عشر أبعاد لخدمات الأعمال** — VERIFIED
-- المؤسسون: عبدالرحمن الخنفري (CEO — خلفية إدارة مراكز اتصال) + **عبدالملك المنيف (شريك تقني)** — VERIFIED
-- الفريق: 15 بدوام كامل — ⚠️ تعارض ثالث: Burn ~80K ريال ÷ 15 شخصاً = 5,300 ريال/شخص/شهر — غير قابل للتصديق كرواتب. إما الفريق ليس كله موظفين بأجر كامل أو الـ Burn أعلى. يُحسم قبل شريحة Financials.
-- Burn: ~80K ريال/شهر (مستنتج من 400K = 5 أشهر) — PARTIAL
+Current finance numbers supersede all older deck/Mem/April-file numbers.
 
-## الدعم والمسارات
-- دعم وزارة الاتصالات + احتضان ضمن أفضل 5 شركات AI — VERIFIED (أصل Why-Us قوي جداً)
-- مسار دافئ مذكور: رياض الزامل — PARTIAL
-- مصادر السوق: Dialora Research، Aircall Research — PARTIAL (تُجلب الروابط)
+| Metric | Current value | Gate |
+|---|---:|---|
+| Paying customers now | 4 | PARTIAL — needs contract/invoice proof linked |
+| MRR | 40,791.5 SAR | PARTIAL — from current financial model |
+| ARR | 489,498 SAR | PARTIAL — MRR x 12 |
+| ARPU | 10,197.875 SAR | PARTIAL — MRR / 4 customers |
+| Collected revenue, last 6 months | 56,886 SAR | PARTIAL/CONFIRMED IN SHEET — needs bank proof |
+| Monthly burn | 48,250 SAR | PARTIAL — needs expense evidence |
+| Net burn | 7,458.5 SAR | PARTIAL |
+| Cash on hand | MISSING | BLOCKER for runway |
+| Runway | MISSING / not meaningful | requires cash balance |
+| Unit Gross Margin | 85.6%–88.0% | VERIFIED-INTERNAL — cost/min 0.36 SAR, sell/min 2.5–3.0 SAR |
+| Accounts receivable | 30,291.5 SAR | PARTIAL — needs invoice/collection proof |
 
+**Do not use older numbers** such as 14 paying customers, 11 active customers, ~18K MRR, 532.8K expected annual revenue, or 850K spending plan as current metrics. They are historical/context only.
 
 ---
-# ⚡ Founder Data Drop — 2026-06-10 (من Mem + آخر Pitch Deck)
 
-## سندس — الأرقام التجارية
-- عملاء مدفوعون: **14** (نسخة أخرى من العرض تقول 11 — ⚠️ يُحسم رقم واحد) — VERIFIED-internal
-- MRR: **~18,000 ريال** — VERIFIED-internal · ARPU المعلن: 3,000-10,000 ريال/شهر — ⚠️ CONFLICT حسابي (انظر CONFLICTS_TO_RESOLVE.md)
-- 30 عميلاً مجانياً سابقاً · Churn: MISSING · حجم مكالمات: MISSING
-- قصة العميل المعتمدة: مجموعة الحمادي / مستشفى SMC — ضياع مكالمات يكلف 150-200K ريال/شهر → رد فوري 100% — VERIFIED-internal
-- شعارات مسموحة: الحمادي · SMC · سبل
+## 1) Company identity
 
-## الجولة (قرار مؤسس نهائي)
-- **الطلب: 1,000,000 دولار** · النسبة/التقييم: يُحسم لاحقاً (العرض القديم: 4M ريال @ 40M — يُستبدل)
-- الاستخدام: فريق 50% · تسويق 30% · منتج 20% → الهدف: 280 عميلاً و9M ريال ARR خلال 18 شهراً
-- جولة سابقة: 120,000 ريال من ملائكة — في الكاب تيبل
+- Founder: Abdulrahman Fahad Alkhanfari — CEO / founder — VERIFIED-INTERNAL.
+- Investor-facing group name: **Ten Dimensions — Infrastructure for the Autonomous Enterprise** — VERIFIED-INTERNAL.
+- First fundraising use case: D10 Group, with **Sondos as current revenue wedge** and **Siyadah as memory/execution moat**.
+- Legal/group structure and subsidiary ownership: **MISSING** — must be documented before investor diligence.
 
-## الكيان والفريق
-- الكيان الرافع: **شركة عشر أبعاد لخدمات الأعمال** — VERIFIED-internal
-- المؤسسون: عبدالرحمن الخنفري (CEO — خلفية إدارة مراكز اتصال) + عبدالملك المنيف (شريك تقني)
-- الفريق: 15 بدوام كامل · Burn مُستنتج ~80K ريال/شهر (من جولة 400K=5 أشهر) — PARTIAL ⚠️ (80K÷15 موظفاً منخفض جداً — يُدقق)
-- Runway الحالي: MISSING
+---
 
-## مسارات دافئة ومصداقية
-- دعم وزارة الاتصالات MCIT + احتضان ضمن أفضل 5 شركات AI — VERIFIED-internal (أصل مصداقية قوي للـ Deck)
-- تواصل قائم مع رياض الزامل
-- مصادر السوق: Dialora Research · Aircall Research — PARTIAL (تُجلب الروابط)
+## 2) Siyadah — investment thesis
 
-## حالة سيادة
-- ما زالت قبل التسويق التجاري — كل الأرقام التجارية أعلاه = سندس. القصة: إيراد سندس اليوم، خندق سيادة غداً.
+- Siyadah thesis: an intelligent operating system for companies that identifies where money leaks, builds digital employees to close the gap, and proves impact with numbers — VERIFIED-INTERNAL as thesis.
+- Investor framing: we do not replace employees; we replace the gap between systems and management where money leaks — VERIFIED-INTERNAL.
+- Vision: URL/company identity intake → truth mirror/report → “fix this for me” → digital employees → measured ROI — VERIFIED-INTERNAL as vision; not all features are fully launched.
+- Loop: sees → understands → decides → executes → measures ROI — VERIFIED-INTERNAL.
+- Metaphor: **Siyadah = the nervous system of the company** — VERIFIED-INTERNAL.
+- Current commercial status: Siyadah is still pre-commercial/early product; current revenue proof comes from Sondos. Narrative: **Sondos revenue today, Siyadah moat tomorrow.**
+
+---
+
+## 3) Siyadah — technical status
+
+- E2E proof: Chat → build_dynamic_flow → flow_id → digital_employees → Dashboard — VERIFIED-INTERNAL from previous production/log proof.
+- 18 digital employees and 19 Activepieces connections existed in founder/test environment — VERIFIED-INTERNAL, not customer metric.
+- Architecture: Next.js + FastAPI orchestrator + Activepieces + Postgres + Redis/Railway — VERIFIED-INTERNAL.
+- Launch state: not investor-ready as fully commercial product; requires proof gates and demo readiness.
+- Internal operating system with command/review agents: CEO review, QA, ship, retro, etc. — useful “we are our first customer” proof.
+
+---
+
+## 4) Sondos — current commercial truth
+
+### 4.1 Current paying customers used for MRR
+
+| # | Customer | Sector | Current MRR | Gate |
+|---:|---|---|---:|---|
+| 1 | الاناة الطبية | طبي | 17,391.5 SAR | PARTIAL |
+| 2 | جمعية زمزم | جمعية خيرية | 5,400 SAR | PARTIAL |
+| 3 | شركة تقدير | عقاري | 12,900 SAR | PARTIAL |
+| 4 | جمعية اعادة الحياة | طبي | 5,100 SAR | PARTIAL |
+
+**Current MRR:** 40,791.5 SAR  
+**Current ARR:** 489,498 SAR  
+**Current ARPU:** 10,197.875 SAR
+
+### 4.2 Customer universe — historical / previous / current
+
+This list is the broader customer universe. It must not be confused with current paying MRR customers.
+
+| # | Customer | Sector | Current classification |
+|---:|---|---|---|
+| 1 | حصيف | تحصيل | Historical/current status TBD |
+| 2 | سعودي كو | برمجيات | Historical/current status TBD |
+| 3 | مرن | خدمات HR | Historical/current status TBD |
+| 4 | Hall Simplify / Hal Simplify Solutions | برمجيات / حلول تقنية | Historical/current status TBD |
+| 5 | الورود | عقاري | Historical/current status TBD |
+| 6 | ساعي تقني | عقاري | Historical/current status TBD |
+| 7 | فانا | عقاري | Historical/current status TBD |
+| 8 | جمعية زمزم | جمعية خيرية | Current MRR customer |
+| 9 | جمعية اعادة الحياة | طبي | Current MRR customer |
+| 10 | فليتيك | برمجيات | Historical/current status TBD |
+| 11 | الاناة الطبية | طبي | Current MRR customer |
+| 12 | شركة تقدير | عقاري | Current MRR customer |
+| 13 | عميل غير متذكر 1 | MISSING | To identify |
+| 14 | عميل غير متذكر 2 | MISSING | To identify |
+
+**Investor rule:** use this as market traction breadth, not as current paying customer count unless status and evidence are confirmed.
+
+### 4.3 Sondos proof assets
+
+- Use case: Arabic/Saudi voice agent for hospitals, clinics, real estate, collections, HR/services, and software/operations companies — PARTIAL.
+- Shared moat: “Sondos voice inside Siyadah” creates a voice-data wedge and memory moat — VERIFIED-INTERNAL as strategic thesis.
+- Unit economics: cost/minute 0.36 SAR and sell/minute 2.5–3.0 SAR → Unit GM 85.6%–88.0% — VERIFIED-INTERNAL.
+
+---
+
+## 5) Pricing and business model
+
+- Current Sondos revenue model includes per-minute economics and customer packages — PARTIAL.
+- Investor-facing Unit GM: **85.6%–88.0%** — use this before monthly gross margin, because it is tied to actual minute economics.
+- Pricing conflicts from older notes remain SUPERSEDED unless re-approved: $25 starter, 199–999 SAR digital employee bundles, and previous 3K–10K ARPU language.
+- Required before deck send: decide the exact pricing line shown to investors: subscription, per-minute, bundled package, or hybrid.
+
+---
+
+## 6) Market
+
+- Internal market claims previously included: 4,839 medical complexes, 50,000+ SMEs in KSA, 200,000+ companies in GCC, and 1M+ in Arab world — PARTIAL.
+- These market numbers require external source links before investor deck use.
+- Strongest bottom-up wedge now appears to be sectors already touched by customers: healthcare, real estate, collections, HR/services, charities, and software/operations.
+
+---
+
+## 7) Investor targets and outreach
+
+- Internal target funds: Shorooq, BECO, Global Ventures, MEVP, Wamda, STV, Raed, Vision Ventures, 500 Global, Flat6Labs, Impact46 — PARTIAL.
+- Outreach rule remains: do not send deck first. Send hook + vision + current traction + ask for 20 minutes.
+- Final prioritization still needs founder decision: STV/Impact46/Shorooq vs broader tier list.
+
+---
+
+## 8) Round and use of funds
+
+- Founder direction from 2026-06-10: raise **$1,000,000**; valuation/equity open to negotiation — PARTIAL.
+- Historical anchor 4M SAR for 10% / 40M valuation is SUPERSEDED unless explicitly re-approved.
+- Previous use of funds: team 50%, marketing 30%, product 20% — PARTIAL; must be tied to current burn and 18-month model.
+- 18-month target of 280 customers and 9M ARR is PARTIAL and must be rebuilt from current ARPU/MRR assumptions.
+
+---
+
+## 9) Team and legal
+
+- Entity raising: Ten Dimensions / عشر أبعاد لخدمات الأعمال — PARTIAL/needs legal docs.
+- Founder: Abdulrahman Alkhanfari — CEO/founder — VERIFIED-INTERNAL.
+- Technical partner/founder reference: Abdulmalik Almunif — PARTIAL/needs final role confirmation.
+- Team size, payroll, cap table, and legal ownership: MISSING/PARTIAL.
+
+---
+
+## 10) Ten ammunition items — current state
+
+| # | Item | Current state |
+|---:|---|---|
+| 1 | MRR/ARR/growth | PARTIAL — current MRR/ARR captured in Financial Truth Pack |
+| 2 | Customers/churn | PARTIAL — 4 current paying customers; broader 12+2 customer universe captured; churn/status still TBD |
+| 3 | Call/minute volume | MISSING — important for voice proof |
+| 4 | ACV/pricing/margin | PARTIAL — Unit GM verified internally; pricing line still TBD |
+| 5 | CAC/channels | MISSING |
+| 6 | Burn/runway | PARTIAL — burn captured; cash/runway missing |
+| 7 | Round/valuation/milestones | PARTIAL — $1M direction; valuation/milestones need final model |
+| 8 | Team | PARTIAL |
+| 9 | Customer stories with numbers | MISSING/PARTIAL — need 2–3 quantified case studies |
+| 10 | Market/sector sizing | PARTIAL — needs external sources |
+
+---
+
+## 11) Unexpected strong assets
+
+- Scenario/system architecture documents can become an architecture/moat slide.
+- Sovereign Red Team / internal proof discipline can become diligence confidence.
+- Founder story: slow approvals / missed opportunities → “12 seconds instead of 48 hours” angle — strong Why-Now narrative.
+- Customer breadth across healthcare, real estate, collections, HR/services, charities, and software gives stronger wedge story than a single-sector pitch.
+
+---
+
+## 12) Blocking gates before investor send
+
+- [ ] Identify the 2 missing historical customers.
+- [ ] Tag every customer as: Current paying / Past paid / Trial / Negotiation / Lost / Unknown.
+- [ ] Link contracts, invoices, or proof for the 4 current MRR customers.
+- [ ] Add cash balance to calculate runway.
+- [ ] Add bank/receipt proof for collected revenue.
+- [ ] Replace deck placeholders and remove old 14-customer / 18K-MRR claim.
+- [ ] Update readiness score after deck and data-room cleanup.
+
+---
+
+## 13) One-line investor traction wording — current safe version
+
+> Sondos has generated 40.8K SAR in current MRR across 4 paying customers, with a broader customer universe across healthcare, real estate, collections, HR/services, charities, and software. The voice unit economics are strong: minute cost is ~0.36 SAR and resale price ranges from 2.5 to 3.0 SAR, implying 85.6%–88.0% unit gross margin. Siyadah turns this voice-data wedge into a long-term memory and execution moat.
