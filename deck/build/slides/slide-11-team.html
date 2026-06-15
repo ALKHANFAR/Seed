@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>عشر أبعاد · 11 · الفريق</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+@layer utilities { .ppt-slide { @apply relative w-[1280px] h-[720px] mx-auto box-border overflow-hidden } }
+</style>
+<style>
+body { font-family: "Cairo", sans-serif; background: #000; margin: 0; padding: 0; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+.title-font { font-family: "Tajawal", sans-serif; letter-spacing: -1.5px; }
+.num-font { font-family: "Tajawal", sans-serif; font-feature-settings: "tnum"; }
+.action-title { background: linear-gradient(180deg, #ffffff, #e2e8f0); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.gold-text { background: linear-gradient(135deg, #fcd34d, #f59e0b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.grid-pattern { background-image: linear-gradient(rgba(255,255,255,0.012) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.012) 1px, transparent 1px); background-size: 72px 72px; }
+.dot-live { box-shadow: 0 0 10px rgba(34,197,94,0.8); }
+.section-label { letter-spacing: 0.35em; }
+
+.founder-card { background: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%); border: 1px solid rgba(255,255,255,0.10); border-radius: 14px; }
+.founder-ceo .avatar { background: linear-gradient(135deg, #60a5fa, #3b82f6); box-shadow: 0 0 30px rgba(59,130,246,0.4); }
+.founder-cto .avatar { background: linear-gradient(135deg, #a78bfa, #8b5cf6); box-shadow: 0 0 30px rgba(139,92,246,0.4); }
+
+.team-cell { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 10px; }
+.team-cell-elite { background: linear-gradient(135deg, rgba(251,191,36,0.10), rgba(251,191,36,0.02)); border: 1px solid rgba(251,191,36,0.40); border-radius: 10px; }
+.team-cell-emerald { background: linear-gradient(135deg, rgba(16,185,129,0.08), rgba(16,185,129,0.02)); border: 1px solid rgba(52,211,153,0.30); border-radius: 10px; }
+
+.mcit-banner { background: linear-gradient(135deg, rgba(251,191,36,0.10) 0%, rgba(251,191,36,0.02) 100%); border: 1px solid rgba(251,191,36,0.35); box-shadow: 0 0 40px rgba(251,191,36,0.08); border-radius: 12px; }
+.humain-badge { background: linear-gradient(135deg, rgba(167,139,250,0.18), rgba(139,92,246,0.06)); border: 1px solid rgba(167,139,250,0.50); border-radius: 4px; padding: 1px 6px; font-weight: 800; color: #c4b5fd; font-size: 9px; letter-spacing: 0.05em; }
+</style>
+</head>
+<body>
+<div class="ppt-slide flex flex-col" style="background: radial-gradient(ellipse at 50% 50%, #0a0e1c 0%, #050510 55%, #000000 100%)">
+  <div class="absolute inset-0 grid-pattern opacity-50"></div>
+  <div class="absolute top-1/4 left-1/4 w-[400px] h-[400px]" style="background: radial-gradient(circle, rgba(59,130,246,0.10) 0%, transparent 65%); filter: blur(60px);"></div>
+  <div class="absolute top-1/4 right-1/4 w-[400px] h-[400px]" style="background: radial-gradient(circle, rgba(139,92,246,0.10) 0%, transparent 65%); filter: blur(60px);"></div>
+
+  <!-- TOP BAR -->
+  <div class="relative z-20 flex justify-between items-center px-12 pt-6">
+    <div class="flex items-center gap-2.5 text-[10px] tracking-[0.35em] text-white/40 uppercase">
+      <div class="w-1 h-1 rounded-full bg-emerald-400 dot-live"></div>
+      <span>Strictly Confidential</span>
+    </div>
+    <div class="flex items-center gap-3">
+      <svg class="h-7 w-auto text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 296" style="filter:drop-shadow(0 0 6px rgba(96,165,250,0.4))" fill="none">
+        <path d="M0 1 H391 A147 147 0 1 1 300 286 Q180 230 0 1 Z" fill="currentColor"/>
+      </svg>
+      <div class="border-r border-white/12 pr-3">
+        <div class="text-[13px] font-bold text-white leading-tight">عشر أبعاد القابضة</div>
+        <div class="text-[8px] text-white/35 tracking-[0.3em] uppercase mt-0.5">Ten Dimensions</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TITLE -->
+  <div class="relative z-10 px-12 pt-5">
+    <div class="flex items-center gap-3 mb-3">
+      <span class="text-white/55 text-[10px] section-label uppercase font-semibold">11 · الفريق · The Team</span>
+      <div class="flex-1 h-px bg-gradient-to-l from-transparent via-white/10 to-transparent"></div>
+    </div>
+    <h1 class="title-font text-[32px] font-black leading-[1.1] action-title mb-1">
+      منفّذون. ووزارة تموّل <span class="num-font gold-text">٣ مواهب عالمية</span>.
+    </h1>
+    <p class="text-[12px] text-white/35 tracking-wide">Operators with skin in the game. Ministry funds 3 world-class AI engineers.</p>
+  </div>
+
+  <!-- FOUNDER CARDS -->
+  <div class="relative z-10 grid grid-cols-2 gap-4 px-12 pt-5">
+
+    <!-- CEO -->
+    <div class="founder-card founder-ceo p-5 flex gap-4">
+      <div class="avatar w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0">
+        <span class="title-font text-[26px] font-black text-white">ع</span>
+      </div>
+      <div class="flex-1">
+        <div class="flex items-baseline justify-between mb-1">
+          <span class="text-[17px] font-black text-white">عبدالرحمن الخنفري</span>
+          <span class="text-[9px] text-blue-300/70 tracking-[0.3em] uppercase font-bold">CEO</span>
+        </div>
+        <div class="text-[11px] text-white/45 mb-2.5">باني الشركات · مشغّل دولي</div>
+        <div class="space-y-1 text-[11px] text-white/75">
+          <div class="flex items-center gap-2"><span class="text-blue-300">★</span> أسّس وأدار شركاتٍ منذ ٢٠١٦</div>
+          <div class="flex items-center gap-2"><span class="text-blue-300">★</span> تشغيلٌ عابرٌ في <span class="text-white font-bold">٤ دول</span> · <span class="text-white font-bold">١٥٠ موظفاً</span></div>
+          <div class="flex items-center gap-2"><span class="text-blue-300">★</span> Operator يعرف كيف تُبنى الإيرادات</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTO -->
+    <div class="founder-card founder-cto p-5 flex gap-4">
+      <div class="avatar w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0">
+        <span class="title-font text-[26px] font-black text-white">ع</span>
+      </div>
+      <div class="flex-1">
+        <div class="flex items-baseline justify-between mb-1">
+          <span class="text-[17px] font-black text-white">عبدالملك الوهيبي</span>
+          <span class="text-[9px] text-purple-300/70 tracking-[0.3em] uppercase font-bold">CTO</span>
+        </div>
+        <div class="text-[11px] text-white/45 mb-2.5">تقنيٌّ من قلب الذكاء السيادي</div>
+        <div class="space-y-1 text-[11px] text-white/75">
+          <div class="flex items-center gap-2">
+            <span class="text-purple-300">★</span>
+            <span>Technical Partner @</span>
+            <span class="humain-badge">HUMAIN</span>
+            <span class="text-white/50 text-[10px]">(PIF)</span>
+          </div>
+          <div class="flex items-center gap-2"><span class="text-purple-300">★</span> متخصص NLP عربي · باحث AI صوتي</div>
+          <div class="flex items-center gap-2"><span class="text-purple-300">★</span> داخل منظومة الذكاء الوطني السعودي</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OPERATING TEAM -->
+  <div class="relative z-10 px-12 pt-5">
+    <div class="flex items-center gap-3 mb-2.5">
+      <div class="w-1 h-3 bg-white/40"></div>
+      <span class="text-[10px] text-white/55 tracking-[0.3em] uppercase font-semibold">الفريق التنفيذي · Operating Team</span>
+      <div class="flex-1 h-px bg-gradient-to-l from-transparent via-white/10 to-transparent"></div>
+    </div>
+    <div class="grid grid-cols-4 gap-2.5">
+
+      <!-- Global Talents (hero) -->
+      <div class="team-cell-elite px-4 py-3">
+        <div class="flex items-start justify-between mb-1">
+          <div class="num-font text-[26px] font-black gold-text leading-none">٣</div>
+          <div class="text-[16px]">🌍</div>
+        </div>
+        <div class="text-[10px] text-white/90 font-bold mt-1.5">مواهب عالمية</div>
+        <div class="text-[8px] text-amber-200/65 mt-1 tracking-wider">Ministry-Funded · AI Elite</div>
+      </div>
+
+      <!-- AI Engineers -->
+      <div class="team-cell px-4 py-3">
+        <div class="flex items-start justify-between mb-1">
+          <div class="num-font text-[26px] font-black text-white leading-none">٥</div>
+          <div class="text-[16px] opacity-70">⚙️</div>
+        </div>
+        <div class="text-[10px] text-white/85 font-bold mt-1.5">مهندسي AI</div>
+        <div class="text-[8px] text-white/40 mt-1 tracking-wider">Engineering Core</div>
+      </div>
+
+      <!-- GTM (Sales + Ops) -->
+      <div class="team-cell px-4 py-3">
+        <div class="flex items-start justify-between mb-1">
+          <div class="num-font text-[26px] font-black text-white leading-none">٤</div>
+          <div class="text-[16px] opacity-70">📈</div>
+        </div>
+        <div class="text-[10px] text-white/85 font-bold mt-1.5">مبيعات وتشغيل</div>
+        <div class="text-[8px] text-white/40 mt-1 tracking-wider">GTM &amp; Operations</div>
+      </div>
+
+      <!-- Total -->
+      <div class="team-cell-emerald px-4 py-3">
+        <div class="flex items-start justify-between mb-1">
+          <div class="num-font text-[26px] font-black text-emerald-300 leading-none">١٢</div>
+          <div class="text-[16px]">👥</div>
+        </div>
+        <div class="text-[10px] text-white/90 font-bold mt-1.5">إجمالي الفريق</div>
+        <div class="text-[8px] text-emerald-200/55 mt-1 tracking-wider">Full-Time · Growing</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MCIT PARTNERSHIP BANNER -->
+  <div class="relative z-10 px-12 pt-3">
+    <div class="mcit-banner px-5 py-3">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <span class="text-amber-300 text-xl">🏛️</span>
+          <div>
+            <div class="text-[13px] font-black text-white">شراكة وزارة الاتصالات وتقنية المعلومات</div>
+            <div class="text-[10px] text-amber-200/65 mt-0.5">٣ مواهب عالمية · العقود موقّعة · يصلون الرياض خلال أسابيع</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-5">
+          <div class="text-center">
+            <div class="num-font text-[18px] font-black gold-text leading-none">١٢.٠٥M</div>
+            <div class="text-[7.5px] text-amber-200/60 tracking-widest uppercase mt-0.5">ريال · ٣ سنوات</div>
+          </div>
+          <div class="w-px h-7 bg-amber-300/20"></div>
+          <div class="text-center">
+            <div class="num-font text-[18px] font-black gold-text leading-none">٤</div>
+            <div class="text-[7.5px] text-amber-200/60 tracking-widest uppercase mt-0.5">دول · خبرات</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="relative z-10 flex justify-between items-center px-12 pb-4 pt-3 mt-auto">
+    <div class="text-[9px] text-white/25"><span class="inline-flex items-center gap-2"><span class="text-white/40">CEO + CTO + ١٢ منفّذاً</span><span class="text-white/15">·</span><span class="text-white/40">التالي:</span><span class="text-white/55">الجولة</span><span class="text-white/30">→</span></span></div>
+    <div class="flex items-center gap-3 text-[10px] text-white/25 tracking-[0.3em] uppercase"><span class="text-white/40">11</span><span>—</span><span>12</span></div>
+  </div>
+</div>
+</body>
+</html>
